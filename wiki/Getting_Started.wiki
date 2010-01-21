@@ -1,9 +1,9 @@
 #labels Featured
 = Getting started =
 
-Robotium-Solo can be used in conjunction with ActivityInstrumentationTestCase2. The test cases are written from a user perspective were technical details are not needed.
+Robotium-Solo can be used in conjunction with !ActivityInstrumentationTestCase2. The test cases are written from a user perspective were technical details are not needed.
  
-Example of usage (test case spanning over multiple activities where EditorActivity is the first activity):
+Example of usage (test case spanning over multiple activities where !EditorActivity is the first activity):
 
 {{{
  
