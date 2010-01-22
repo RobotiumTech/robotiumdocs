@@ -27,7 +27,7 @@ public class EditorTest extends
   	solo.clickOnButton("Edit");
   	assertTrue(solo.searchText("Edit Window"));
         solo.enterText(1, "Some text for testing purposes")
-  	solo.clickOnButton("Commit");
+  	solo.clickOnButton("Save");
   	assertTrue(solo.searchText("Changes have been made successfully"));
         solo.clickOnButton("Ok");
         assertTrue(solo.searchText("Some text for testing purposes"));
