@@ -1,11 +1,11 @@
 #labels Featured
 = Getting started =
 
-In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject.zip ExampleTestProject.zip] which is an example test project created in Eclipse to test NotePad. NotePad is a sample project located in AndroidSDK/platforms/android-2.1/samples/NotePad. 
+In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject.zip ExampleTestProject.zip] which is an example test project created in Eclipse to test !NotePad. !NotePad is a sample project located in AndroidSDK/platforms/android-2.1/samples/!NotePad. 
 
 In Eclipse just click on File --> New --> Project --> Android Project --> Create Project from existing source --> NotePad.
 
-Then you import ExampleTestProject.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> ExampleTestProject.zip.
+Then you import !ExampleTestProject.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject.zip.
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
 
