@@ -1,1 +1,0 @@
-[http://robotium.googlecode.com/files/ExampleTestProject.zip]
