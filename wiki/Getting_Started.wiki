@@ -3,7 +3,7 @@
 
 In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject.zip ExampleTestProject.zip] which is an example test project created in Eclipse to test !NotePad. !NotePad is a sample project located in AndroidSDK/platforms/android-2.1/samples/!NotePad. 
 
-In Eclipse click on File --> New --> Project --> Android Project --> Create Project from existing source --> !NotePad.
+In Eclipse click on File --> New --> Project --> Android Project --> Create Project from existing source --> !NotePad. In the AndroidManifest.xml you have to add the follow permission: <uses-permission android:name="android.permission.GET_TASKS" />
 
 Then you import !ExampleTestProject.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject.zip.
 
