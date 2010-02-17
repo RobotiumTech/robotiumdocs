@@ -5,7 +5,7 @@ In the Downloads section you will find [http://robotium.googlecode.com/files/Exa
 
 In Eclipse click on File --> New --> Project --> Android Project --> Create Project from existing source --> !NotePad. In the !AndroidManifest.xml you have to add the follow line: <uses-permission android:name="android.permission.GET_TASKS" />
 
-Then you import !ExampleTestProject.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject.zip.
+Then you import !ExampleTestProject_v2.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v2.zip.
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
 
