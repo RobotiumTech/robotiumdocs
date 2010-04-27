@@ -1,4 +1,5 @@
 #summary Use Robotium with Maven
+#labels Featured
 
 = Use Robotium with Maven =
 
