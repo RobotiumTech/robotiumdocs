@@ -1,0 +1,31 @@
+#summary Use Robotium with Maven
+
+= Use Robotium with Maven =
+
+This is what you need:
+  * Set up your project(s) as usual for Maven, see [http://code.google.com/p/maven-android-plugin/ maven-android-plugin].
+  * Add Jayway's Open Source Maven repository to your test project's pom:
+    {{{
+    <repositories>
+        <repository>
+            <id>oss.sonatype.org-jayway</id>
+            <url>http://oss.sonatype.org/content/groups/jayway/</url>
+        </repository>
+    </repositories>
+    }}}
+  * Add a dependency to Robotium in your test project:
+    {{{
+    <dependencies>
+        <dependency>
+            <groupId>com.jayway.android.robotium</groupId>
+            <artifactId>robotium-solo</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+    ...
+
+    </dependencies>
+
+    }}}
+
+*NB: For the version number, enter the version number of the latest release!*
