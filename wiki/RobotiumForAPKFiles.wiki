@@ -1,3 +1,5 @@
+#summary Use Robotium when only having the apk
+
 With Robotium it is possible to run test cases on applications were you only have the .apk file!
 
 = Introduction =
