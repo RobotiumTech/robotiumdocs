@@ -1,4 +1,4 @@
-#summary Source code is hosted on github.
+#summary Source code is hosted on github
 
 
 ==Robotium source code==
