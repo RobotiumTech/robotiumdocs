@@ -18,7 +18,7 @@ In your test project's AndroidManifest.xml in Eclipse, set the target package to
 Write your test class like this:
 (the example here is for NewsRob)
 
-
+{{{
 package com.yourcompany.yourtestname;
 
 import com.jayway.android.robotium.solo.Solo;
@@ -57,7 +57,7 @@ public class ReallyBlackboxTest extends ActivityInstrumentationTestCase2 {
 	}
 
 }
-
+}}}
 
 
  
