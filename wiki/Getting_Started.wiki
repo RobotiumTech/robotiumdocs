@@ -5,7 +5,7 @@ In the Downloads section you will find [http://robotium.googlecode.com/files/Exa
 
 In Eclipse click on File --> New --> Project --> Android Project --> Create Project from existing source --> !NotePad. 
 
-Then you import !ExampleTestProject_v5.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v6.zip.
+Then you import !ExampleTestProject_v6.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v6.zip.
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
 
