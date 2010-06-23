@@ -13,10 +13,10 @@ The android debug key is used by Eclipse when signing applications and test proj
 
 To make this work you need to know the package name and the launcher activity name. Those you can obtain by starting the application in the emulator and whatching the logs (adb logcat). The log shows what the package name and the activity name are. When you have that information yo do the following:
 
-In your test project's AndroidManifest.xml in Eclipse, set the target package to the package id you found above.
+In your test project's !AndroidManifest.xml in Eclipse, set the target package to the package id you found above.
 
 Write your test class like this:
-(the example here is for NewsRob)
+(the example here is for !NewsRob)
 
 {{{
 package com.yourcompany.yourtestname;
