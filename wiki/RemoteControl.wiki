@@ -8,7 +8,7 @@ There have been some questions regarding when and how Remote Control for Robotiu
 = How it works =
 
 == Currently with Robotium Solo == 
-Currently, Robotium Solo is a jar (a couple of classes) you include in your ordinary instrumentation tests. Instrumentation tests for Android are built as a separate apk, and installed on the device along the application apk you wish to test.
+Currently, Robotium Solo is a jar you include in your ordinary instrumentation tests. Instrumentation tests for Android are built as a separate apk, and installed on the device along the application apk you wish to test.
 
 When you use Robotium to write your instrumentation tests, the instrumentation test apk simply contains a few more classes that otherwise. The test apk is still deployed to the device and executed in its entirety there.
 
