@@ -1,0 +1,24 @@
+#summary Work in progress, regarding Remote Control for Robotium.
+#labels Phase-Requirements,Phase-Design
+
+= Introduction =
+
+There have been some questions regarding when and how Remote Control for Robotium can be implemented, so this page serves as a collection of current efforts around implementing it.
+
+= How it works =
+
+== Currently with Robotium Solo == 
+Currently, Robotium Solo is a jar (a couple of classes) you include in your ordinary instrumentation tests. Instrumentation tests for Android are built as a separate apk, and installed on the device along the application apk you wish to test.
+
+When you use Robotium to write your instrumentation tests, the instrumentation test apk simply contains a few more classes that otherwise. The test apk is still deployed to the device and executed in its entirety there.
+
+There is a certain round-trip that can't be circumvented: building and installing the test apk.
+
+== Robotium Remote Control ==
+Remote Control for Robotium on the other hand will be similar in architecture to how [http://seleniumhq.org/projects/remote-control/ Selenium RC] works.
+
+With Remote Control, you will have the test classes run in your computer with normal JUnit and transparently communicating to the device what to manipulate. Having the test classes run on the computer instead, will mean that we can use other things on top, such as [http://cukes.info/ cucumber] or anything which can deal with the JVM.
+
+For this to work, there will need to be some kind of remote control receiver, or server component really, in the device with instrumentation permissions. When the test classes run in the computer, and talk to the Robotium Remote Control component, that component will actually be a proxy which relays the method calls somehow over to the server component installed on the device. *It* will then perform the actual actions, such as looking for things on screen and manipulating them.
+
+ 
