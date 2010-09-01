@@ -9,6 +9,10 @@ Then you import !ExampleTestProject_v7.zip by clicking on File --> Import --> Ex
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
 
+If you have problems running the test project or some functionality is not working as it should then please add the following tag to the AndroidManifest.xml:
+
+<uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
+
  
 Example of a test case (test case spanning over multiple activities where !EditorActivity is the first activity):
 
