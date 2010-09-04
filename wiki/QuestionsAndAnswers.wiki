@@ -41,7 +41,7 @@ Yes you can if you have a rooted phone. More information is [http://code.google.
 
 === Can I use Robotium on flash and web applications? ===
 
-No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is unfortunately all. You wont be able to write tests were you verify or work with the web or flash components. 
+No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is all. You will not be able to write tests were you verify or work with the web or flash components. 
 
 === How do I run Robotium tests from the command line? ===
 
