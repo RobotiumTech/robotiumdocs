@@ -8,7 +8,6 @@ The easiest way start using Robotium is to go to our [http://code.google.com/p/r
 
 There you can download and run an example test project. When you have imported the example test project it might be interesting to have a look at its structure and the AndroidManifest.xml where the target application for the test is defined.  
 
-You can also follow [http://wiebe-elsinga.com/blog/?p=300 this guide] if you want to create a whole new test project in Eclipse.
 
 === Which versions of Android does Robotium support? ===
  
