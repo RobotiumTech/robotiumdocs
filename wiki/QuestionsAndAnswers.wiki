@@ -33,28 +33,8 @@ Yes you can. You do not need to have the source code. More information is [http:
 
 === Can I use Robotium on pre-installed applications? ===
 
-Yes you can if you have a rooted phone as you will need to have access to /system/app. There are some steps that you need to follow:
-
-1. Log in as root: adb root
-
-2. Remount: adb remount
-
-3. adb pull /system/app/X.apk
-
-4. [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles Resign X.apk] so that it has the same certificate signing as the test project.
-
-5. adb pull /data/system/packages.xml
-
-6. Open packages.xml and remove: <package name="com.x">.....</package>
-
-7. Push packages.xml back to device: adb push packages.xml  
-
-8. Restart your device
-
-9. Push the resigned X.apk back to the device: adb push x.apk /system/app
-
-
-There are some pre-installed applications that do not function when they are resigned. So all pre-installed applications can not be used when resigned and therefore not tested with Robotium either. 
+Yes you can if you have a rooted phone. More information is [http://code.google.com/p/robotium/wiki/RobotiumForPreInstalledApps found here.]
+ 
 
 === Can I use Robotium on flash and web applications? ===
 
