@@ -5,14 +5,17 @@ Common Robotium questions and answers are listed here.
 
 === How do I get started with Robotium? ===
 
-The easiest way to get started with Robotium is to go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.]
+The easiest way start using Robotium is to go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.]
 
-There you can download an example test project to see how a Android test project looks like. What is interesting to observe is the AndroidManifest.xml where the target application for the test is defined. Also the build path is of interest as that is where the Robotium jar is added.  
+There you can download and execute an example test project. When you have imported the example test project it might be interesting to have a look at the AndroidManifest.xml where the target application for the test is defined.  
 
 You can also follow [http://wiebe-elsinga.com/blog/?p=300 this guide] if you want to create a whole new test project in Eclipse.
- 
 
-=== How do I know which functionality that Robotium supports? ===
+=== Which versions of Android does Robotium support? ===
+ 
+Robotium officially supports Android 1.6 and up.
+
+=== Which functionality does Robotium support? ===
 
 Please download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges Javadoc] to see a full list of Robotium methods.
 
@@ -38,7 +41,7 @@ Yes you can if you have a rooted phone. More information is [http://code.google.
 
 === Can I use Robotium on flash and web applications? ===
 
-No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is unfortunately all. You wont be able to write tests were you verify or work with the web and flash components. 
+No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is unfortunately all. You wont be able to write tests were you verify or work with the web or flash components. 
 
 === How do I run Robotium tests from the command line? ===
 
@@ -50,12 +53,12 @@ Where com.android.foo is the name of your test projects package. More on this ca
 
 === Why do text and button clicks get wrong? ===
 
-Robotium officially supports Android 1.6 and up. If this problem happens on one of the supported versions then try to add this tag to the test projects AndroidManifest.xml
+If this problem happens on one of the supported versions then try to add this tag to the test projects AndroidManifest.xml
 
 <uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
 
 Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2.2.
 
-If that does not solve the problem then write an [http://code.google.com/p/robotium/issues/list issue report] and attach the application that you have problems writing Robotium tests for.
+If that does not solve the problem then write an [http://code.google.com/p/robotium/issues/list issue report.] 
 
  
