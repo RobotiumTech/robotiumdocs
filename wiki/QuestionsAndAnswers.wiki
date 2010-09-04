@@ -33,7 +33,9 @@ That means that the test project is locked to the targetPackage. Going outside o
 
 By using this command:
 
-adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner where com.android.foo is the name of your test projects package. More on this can be found here:
+adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner 
+
+Where com.android.foo is the name of your test projects package. More on this can be found here:
 
 http://developer.android.com/reference/android/test/InstrumentationTestRunner.html
 
@@ -84,4 +86,3 @@ Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2
 If that does not solve the problem then write an issue report here: http://code.google.com/p/robotium/issues/list and attach the application that you have problems writing Robotium tests for.
 
  
-
