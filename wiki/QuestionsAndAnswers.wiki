@@ -22,7 +22,7 @@ Please download the [http://code.google.com/p/robotium/downloads/detail?name=rob
 
 === Is it possible to write a test case that spans over 2 applications? ===
 
-No that is not possible. In the AndroidManifest.xml you state which target application you want to test. An example of how it can look like:
+No, that is not possible. In the AndroidManifest.xml you state which target application you want to test. An example of how it can look like:
 
  <instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.InstrumentationTestRunner" />
 
