@@ -4,7 +4,7 @@
 
 === How do I get started with Robotium? ===
 
-Download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0.jar&can=2&q=#makechanges Robotium jar] and add it to your test projects build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download and run an example test project. When you have imported the example test project it might be interesting to have a look at its structure and the AndroidManifest.xml where the target application for the test is defined.  
+Download the [http://robotium.googlecode.com/files/robotium-solo-1.7.0.jar Robotium jar] and add it to your test projects build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download and run an example test project. When you have imported the example test project it might be interesting to have a look at its structure and the AndroidManifest.xml where the target application for the test is defined.  
 
 
 === Which versions of Android does Robotium support? ===
@@ -13,7 +13,7 @@ Robotium officially supports Android 1.6 and up.
 
 === Which features does Robotium support? ===
 
-Please download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges Javadoc] to see a full list of Robotium features.
+Please download the [http://robotium.googlecode.com/files/robotium-solo-1.7.0-javadoc.jar Javadoc] to see a full list of Robotium features.
 
 
 === Is it possible to write a test case that spans over 2 applications? ===
