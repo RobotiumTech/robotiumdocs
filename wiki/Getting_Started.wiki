@@ -1,4 +1,6 @@
+#summary Start using Robotium
 #labels Featured
+
 = Getting started =
 
 In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject_v7.zip ExampleTestProject_v7.zip] which is an example test project created in Eclipse to test !NotePad. !NotePad is a sample project located in AndroidSDK/platforms/android-2.1/samples/!NotePad. 
