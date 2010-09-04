@@ -1,0 +1,27 @@
+#summary Use Robotium on pre-installed applications
+
+With Robotium it is possible to run test cases on applications that are pre-installed. 
+You need to have a rooted phone to make it work as you will need to have access to the /system/app folder on the device. 
+
+
+== Details ==
+
+There are some steps that you need to follow to make it work:
+
+1. Log in as root: adb root
+
+2. Remount: adb remount
+
+3. adb pull /system/app/X.apk (Replace X with the name of the application).
+
+4. [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles Resign X.apk] so that it has the same certificate signing as the test project.
+
+5. adb pull /data/system/packages.xml
+
+6. Open packages.xml and remove: <package name="com.x">.....</package>
+
+7. Push packages.xml back to device: adb push packages.xml  
+
+8. Restart your device
+
+9. Push the resigned X.apk back to the device: adb push x.apk /system/app
