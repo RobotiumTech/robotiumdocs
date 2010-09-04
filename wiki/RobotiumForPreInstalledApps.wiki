@@ -27,3 +27,5 @@ There are some steps that you need to follow to make it work:
 8. Restart your device
 
 9. Push the resigned X.apk back to the device: adb push X.apk /system/app
+
+10. Follow the [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles details section]
