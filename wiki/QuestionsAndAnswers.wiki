@@ -5,21 +5,17 @@ Here some common Robotium questions and answers are listed.
 
 === How do I get started with Robotium? ===
 
-The easiest way to get started with Robotium is to go to our getting started page:
-
-http://code.google.com/p/robotium/wiki/Getting_Started
+The easiest way to get started with Robotium is to go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.]
 
 There you can download an example test project to see how a Android test project looks like. What is interesting to observe is the AndroidManifest.xml where the target application for the test is defined. Also the build path is of interest as that is where the Robotium jar is added.  
 
-You can also follow this guide if you want to create a whole new test project in Eclipse:
-
-http://wiebe-elsinga.com/blog/?p=300 
+You can also follow [http://wiebe-elsinga.com/blog/?p=300 this guide] if you want to create a whole new test project in Eclipse.
+ 
 
 === How do I know which functionality that Robotium supports? ===
 
-Please download the Javadoc to see a full list of Robotium methods:
+Please download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges Javadoc] to see a full list of Robotium methods.
 
-http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges
 
 === Is it possible to write a test case that spans over 2 applications? ===
 
@@ -35,13 +31,12 @@ By using this command:
 
 adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner 
 
-Where com.android.foo is the name of your test projects package. More on this can be found here:
+Where com.android.foo is the name of your test projects package. More on this can be [http://developer.android.com/reference/android/test/InstrumentationTestRunner.html found here.]
 
-http://developer.android.com/reference/android/test/InstrumentationTestRunner.html
 
 === Can I use Robotium if I only have the apk file? ===
 
-Yes you can. You do not need to have the source code. For more information see: http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles
+Yes you can. You do not need to have the source code. More information is [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles found here.] 
 
 
 === Can I use Robotium on pre-installed applications? ===
@@ -54,8 +49,7 @@ Yes you can if you have a rooted phone as you will need to have access to /syste
 
 3. adb pull /system/app/X.apk
 
-4. Resign X.apk so that it has the same certificate signing as the test project. See: 
-http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles
+4. [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles Resign X.apk] so that it has the same certificate signing as the test project.
 
 5. adb pull /data/system/packages.xml
 
@@ -83,6 +77,6 @@ Robotium officially supports Android 1.6 and up. If this problem happens on one 
 
 Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2.2.
 
-If that does not solve the problem then write an issue report here: http://code.google.com/p/robotium/issues/list and attach the application that you have problems writing Robotium tests for.
+If that does not solve the problem then write an [http://code.google.com/p/robotium/issues/list issue report] and attach the application that you have problems writing Robotium tests for.
 
  
