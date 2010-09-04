@@ -3,6 +3,8 @@
 With Robotium it is possible to run test cases on applications that are pre-installed. 
 You need to have a rooted phone to make it work as you will need to have access to the /system/app folder on the device. 
 
+Observe that there are some pre-installed applications that do not function properly when they are resigned. 
+
 
 == Details ==
 
