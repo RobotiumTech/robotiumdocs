@@ -1,7 +1,6 @@
 #summary Common Robotium Questions & Answers
 #labels Featured
 
-Common Robotium questions and answers are listed here.
 
 === How do I get started with Robotium? ===
 
