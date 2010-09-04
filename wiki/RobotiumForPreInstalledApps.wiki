@@ -14,9 +14,9 @@ There are some steps that you need to follow to make it work:
 
 2. Remount: adb remount
 
-3. adb pull /system/app/X.apk (Replace X with the name of the application).
+3. adb pull /system/app/X.apk (Replace X with the name of the application)
 
-4. [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles Resign X.apk] so that it has the same certificate signing as the test project.
+4. [http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles Resign X.apk] so that it has the same certificate signing as the test project
 
 5. adb pull /data/system/packages.xml
 
