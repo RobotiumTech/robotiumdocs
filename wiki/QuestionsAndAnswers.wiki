@@ -1,0 +1,87 @@
+#summary Common Robotium Questions & Answers
+#labels Featured
+
+Here some common Robotium questions and answers are listed.
+
+=== How do I get started with Robotium? ===
+
+The easiest way to get started with Robotium is to go to our getting started page:
+
+http://code.google.com/p/robotium/wiki/Getting_Started
+
+There you can download an example test project to see how a Android test project looks like. What is interesting to observe is the AndroidManifest.xml where the target application for the test is defined. Also the build path is of interest as that is where the Robotium jar is added.  
+
+You can also follow this guide if you want to create a whole new test project in Eclipse:
+
+http://wiebe-elsinga.com/blog/?p=300 
+
+=== How do I know which functionality that Robotium supports? ===
+
+Please download the Javadoc to see a full list of Robotium methods:
+
+http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges
+
+=== Is it possible to write a test case that spans over 2 applications? ===
+
+No that is not possible. In the AndroidManifest.xml you state which target application you want to test. An example of how it can look like:
+
+ <instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.InstrumentationTestRunner" />
+
+That means that the test project is locked to the targetPackage. Going outside of that target package is not allowed by the Android platform. Therefore you will need 2 test projects, one for each application. 
+
+=== How do I run Robotium tests from the command line? ===
+
+By using this command:
+
+adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner where com.android.foo is the name of your test projects package. More on this can be found here:
+
+http://developer.android.com/reference/android/test/InstrumentationTestRunner.html
+
+=== Can I use Robotium if I only have the apk file? ===
+
+Yes you can. You do not need to have the source code. For more information see: http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles
+
+
+=== Can I use Robotium on pre-installed applications? ===
+
+Yes you can if you have a rooted phone as you will need to have access to /system/app. There are some steps that you need to follow:
+
+1. Log in as root: adb root
+
+2. Remount: adb remount
+
+3. adb pull /system/app/X.apk
+
+4. Resign X.apk so that it has the same certificate signing as the test project. See: 
+http://code.google.com/p/robotium/wiki/RobotiumForAPKFiles
+
+5. adb pull /data/system/packages.xml
+
+6. Open packages.xml and remove: <package name="com.x">.....</package>
+
+7. Push packages.xml back to device: adb push packages.xml  
+
+8. Restart your device
+
+9. Push the resigned X.apk back to the device: adb push x.apk /system/app
+
+
+There are some pre-installed applications that do not function when they are resigned. So all pre-installed applications can not be used when resigned and therefore not tested with Robotium either. 
+
+=== Can I use Robotium on flash and web applications? ===
+
+No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is unfortunately all. You wont be able to write tests were you verify or work with the web and flash components. 
+
+
+=== Why do text and button clicks get wrong? ===
+
+Robotium officially supports Android 1.6 and up. If this problem happens on one of the supported versions then try to add this tag to the test projects AndroidManifest.xml
+
+<uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
+
+Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2.2.
+
+If that does not solve the problem then write an issue report here: http://code.google.com/p/robotium/issues/list and attach the application that you have problems writing Robotium tests for.
+
+ 
+
