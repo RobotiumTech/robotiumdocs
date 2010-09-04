@@ -11,7 +11,12 @@ The android debug key is used by Eclipse when signing applications and test proj
 
 == Details ==
 
-To make this work you need to know the package name and the launcher activity name. Those you can obtain by starting the application in the emulator and whatching the logs (adb logcat). The log shows what the package name and the activity name are. When you have that information you do the following:
+To make this work you need to know the package name and the launcher activity name. Those can be obtained by starting the application in the emulator and whatching the logs (adb logcat). The log shows what the package name and the activity name are. An example of how the log message can look like: Starting activity: Intent { act=android.intent.action.MAIN cat=android.intent.category.LAUNCHER?  flg=0x10200000 cmp=com.example.android.notepad/.NotesList
+
+That means that the package name (TARGET_PACKAGE_ID in the example below) is: com.example.android.notepad and the launcher activity name (LAUNCHER_ACTIVITY_FULL_CLASSNAME in the example below) is: com.example.android.notepad.NotesList 
+
+
+When you have that information you do the following:
 
 In your test project's !AndroidManifest.xml in Eclipse, set the target package to the package id you found above.
 
