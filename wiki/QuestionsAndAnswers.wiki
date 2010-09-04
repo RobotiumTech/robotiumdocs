@@ -1,7 +1,7 @@
 #summary Common Robotium Questions & Answers
 #labels Featured
 
-Here some common Robotium questions and answers are listed.
+Common Robotium questions and answers are listed here.
 
 === How do I get started with Robotium? ===
 
@@ -24,14 +24,6 @@ No that is not possible. In the AndroidManifest.xml you state which target appli
  <instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.InstrumentationTestRunner" />
 
 That means that the test project is locked to the targetPackage. Going outside of that target package is not allowed by the Android platform. Therefore you will need 2 test projects, one for each application. 
-
-=== How do I run Robotium tests from the command line? ===
-
-By using this command:
-
-adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner 
-
-Where com.android.foo is the name of your test projects package. More on this can be [http://developer.android.com/reference/android/test/InstrumentationTestRunner.html found here.]
 
 
 === Can I use Robotium if I only have the apk file? ===
@@ -68,6 +60,13 @@ There are some pre-installed applications that do not function when they are res
 
 No Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using clickOnScreen() or assert that a certain Activity is shown but that is unfortunately all. You wont be able to write tests were you verify or work with the web and flash components. 
 
+=== How do I run Robotium tests from the command line? ===
+
+By using this command:
+
+adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner 
+
+Where com.android.foo is the name of your test projects package. More on this can be [http://developer.android.com/reference/android/test/InstrumentationTestRunner.html found here.]
 
 === Why do text and button clicks get wrong? ===
 
