@@ -11,9 +11,9 @@ Download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-s
  
 Robotium officially supports Android 1.6 and up.
 
-=== Which functionality does Robotium support? ===
+=== Which features does Robotium support? ===
 
-Please download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges Javadoc] to see a full list of Robotium methods.
+Please download the [http://code.google.com/p/robotium/downloads/detail?name=robotium-solo-1.7.0-javadoc.jar&can=2&q=#makechanges Javadoc] to see a full list of Robotium features.
 
 
 === Is it possible to write a test case that spans over 2 applications? ===
