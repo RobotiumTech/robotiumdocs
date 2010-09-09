@@ -55,7 +55,7 @@ If this problem happens on one of the supported versions then try to add this ta
 
 Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2.2.
 
-If that does not solve the problem then try to add this tag to the application to be tested:
+If that does not solve the problem then try to add this tag to the application you want to test:
 
 <supports-screens android:anyDensity="true"/> 
 
