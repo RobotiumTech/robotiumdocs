@@ -59,6 +59,6 @@ If that does not solve the problem then try to add this tag to the application y
 
 <supports-screens android:anyDensity="true"/> 
 
-If neither of these tags solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
+If neither of these solutions solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
 
  
