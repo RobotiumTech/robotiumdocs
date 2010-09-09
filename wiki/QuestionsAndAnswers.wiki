@@ -55,6 +55,10 @@ If this problem happens on one of the supported versions then try to add this ta
 
 Where "YOUR_VERSION" is 6 for Android 2.0, 7 for Android 2.1 and 8 for Android 2.2.
 
-If that does not solve the problem then write an [http://code.google.com/p/robotium/issues/list issue report.] 
+If that does not solve the problem then try to add this tag to the application to be tested:
+
+<supports-screens android:anyDensity="true"/> 
+
+If neither of these tags solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
 
  
