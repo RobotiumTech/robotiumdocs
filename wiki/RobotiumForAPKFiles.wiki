@@ -8,7 +8,7 @@ For step by step instructions with images download this [http://robotium.googlec
 
 The .apk file has to have the same signature as your test project. If you do not have the signature key of the .apk file then you need to remove the signature and resign it with you own key, android debug key can be used. A linux bash script can be downloaded [http://robotium.googlecode.com/files/sign-debug-any-apk.sh from here] which strips the apk file from its signature and then signs it with your android debug key. If you are not using linux then you can still open the script to understand what it does. 
 
-The android debug key is used by Eclipse when signing applications and test projects before installing them on emulator/device. So many times it is easier to just use that key when resigning the apk. 
+The android debug key is used by Eclipse when signing applications and test projects before installing them on the emulator/device. Many times it is easier to just use that key when resigning the apk. 
 
 
 == Details ==
