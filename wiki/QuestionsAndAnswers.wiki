@@ -21,7 +21,7 @@ Please download the [http://robotium.googlecode.com/files/robotium-solo-1.7.1-ja
 No, that is not possible. In the !AndroidManifest.xml you state which target application you want to test. An example of what it can look like:
 
 {{{
-<instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.!InstrumentationTestRunner" />
+<instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.InstrumentationTestRunner" />
 }}}
 
 That means that the test project is locked to the {{{targetPackage}}}. Going outside of that target package is not allowed by the Android platform. Therefore you will need 2 test projects, one for each application. 
@@ -46,7 +46,7 @@ No. Robotium will not be able to handle the flash or web components, it only wor
 By using this command:
 
 {{{
-adb shell am instrument -w com.android.foo/android.test.!InstrumentationTestRunner
+adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunner
 }}} 
 
 Where {{{com.android.foo}}} is the name of your test project's package. More on this can be [http://developer.android.com/reference/android/test/InstrumentationTestRunner.html found here.]
