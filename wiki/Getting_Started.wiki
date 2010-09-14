@@ -19,8 +19,9 @@ Then you can run these test cases either on the emulator or on device. You right
 
 If you have problems running the test project or some Robotium functionality is not working as it should then please add the following tag to the AndroidManifest.xml:
 
+{{{
 <uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
-
+}}}
  
 Example of a test case (test case spanning over multiple activities where !EditorActivity is the first activity):
 
