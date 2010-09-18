@@ -1,6 +1,6 @@
 #summary Use Robotium with Maven
 
-= Use Robotium with Maven =
+== Use Robotium with Maven ==
 
 This is what you need:
   * Set up your project(s) as usual for Maven, see [http://code.google.com/p/maven-android-plugin/ maven-android-plugin].
@@ -35,7 +35,7 @@ This is what you need:
 <br/>
 <br/>
 
-= Help testing a specific SNAPSHOT version =
+== Help testing a specific SNAPSHOT version ==
 
 If you have been instructed to help test a specific SNAPSHOT version of Robotium, please add this repository to your pom:
 
