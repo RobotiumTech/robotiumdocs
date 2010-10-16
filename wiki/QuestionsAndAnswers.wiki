@@ -41,6 +41,11 @@ Yes you can if you have a rooted phone. More information is [http://code.google.
 
 No. Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using {{{clickOnScreen()}}} or assert that a certain Activity is shown but that is all. You will not be able to write tests where you verify or work with the web or flash components. 
 
+=== Can I take screenshots from inside of Robotium? ===
+
+No. To include this functionality an extra security tag will be required in the application under test (that allows of saving the screenshots). All who want to use Robotium would then be required to add that security permission tag to the AndroidManifest.xml of the application under test (even if they do not want to use the functionality). Also all Robotium users that do not have the possibility to add that security tag to the application under test would be unable to use Robotium. Thus it has not been included into the Robotium API.
+
+
 === How do I run Robotium tests from the command line? ===
 
 By using this command:
