@@ -43,7 +43,7 @@ No. Robotium will not be able to handle the flash or web components, it only wor
 
 === Can I take screenshots from inside of Robotium? ===
 
-No. To include this functionality an extra security tag will be required in the application under test (that allows of saving the screenshots). All who want to use Robotium would then be required to add that security permission tag to the AndroidManifest.xml of the application under test (even if they do not want to use the functionality). Also all Robotium users that do not have the possibility to add that security tag to the application under test would be unable to use Robotium. Thus it has not been included into the Robotium API.
+No. To include this functionality an extra security tag will be required in the application under test (that allows of saving the screenshots). All who want to use Robotium would then be required to add that security permission tag to the AndroidManifest.xml of the application under test (even if they do not want to use that functionality). The Robotium users that do not have the possibility to add that security tag to the application under test would be unable to use Robotium. Thus it has not been included into the Robotium API.
 
 
 === How do I run Robotium tests from the command line? ===
