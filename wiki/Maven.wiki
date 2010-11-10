@@ -4,7 +4,7 @@
 
 This is what you need:
   * Set up your project(s) as usual for Maven, see [http://code.google.com/p/maven-android-plugin/ maven-android-plugin].
-  * Add a dependency to Robotium in your test project:
+  * Add a dependency to Robotium in your *test* project:
     {{{
     <dependencies>
         <dependency>
@@ -20,13 +20,8 @@ This is what you need:
     }}}
 
 *NB: For the version number, enter the version number of the latest release!*
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-== Help testing a specific SNAPSHOT version ==
+=== Help testing a specific SNAPSHOT version ===
 
 If you have been instructed to help test a specific SNAPSHOT version of Robotium, please add this repository to your pom:
 
@@ -43,3 +38,8 @@ Then set the version number for robotium-solo to the desired version number, for
     {{{
         <version>1.8.1-SNAPSHOT</version>
     }}}
+
+
+== Continuous Integration with Maven for Android apps ==
+There was a talk on this subject at !DroidCon UK 2010-10-28. Slides and scripts are available from the maven-android-plugin project's wiki:
+http://code.google.com/p/maven-android-plugin/wiki/Presentations
