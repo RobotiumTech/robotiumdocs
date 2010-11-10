@@ -41,5 +41,5 @@ Then set the version number for robotium-solo to the desired version number, for
 
 
 == Continuous Integration with Maven for Android apps ==
-There was a talk on this subject at !DroidCon UK 2010-10-28. Slides and scripts are available from the maven-android-plugin project's wiki:
+We did a talk on this subject at !DroidCon UK 2010-10-28. Slides and scripts are available from the maven-android-plugin project's wiki:
 http://code.google.com/p/maven-android-plugin/wiki/Presentations
