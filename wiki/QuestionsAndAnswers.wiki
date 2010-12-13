@@ -4,7 +4,7 @@
 
 === How do I get started with Robotium? ===
 
-Download the [http://robotium.googlecode.com/files/robotium-solo-1.9.0.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download a tutorial as well as a test project that can be run through Eclipse. 
+Download the [http://robotium.googlecode.com/files/robotium-solo-2.0.1.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download a tutorial as well as a test project that can be run through Eclipse. 
 
 
 === Which versions of Android does Robotium support? ===
@@ -13,7 +13,7 @@ Robotium officially supports Android 1.6 and up.
 
 === Which features does Robotium support? ===
 
-Please download the [http://robotium.googlecode.com/files/robotium-solo-1.9.0-javadoc.jar Javadoc] to see a full list of Robotium features. The Javadoc is a jar file that builds on the zip file format. If you do not know how to extract its content you can rename it to .zip instead and extract it with your favourite zip extraction tool.
+Please download the [http://robotium.googlecode.com/files/robotium-solo-2.0.1-javadoc.jar Javadoc] to see a full list of Robotium features. The Javadoc is a jar file that builds on the zip file format. If you do not know how to extract its content you can rename it to .zip instead and extract it with your favourite zip extraction tool.
 
 
 === Is it possible to write a test case that spans over 2 applications? ===
