@@ -4,16 +4,16 @@
 == Getting started ==
 Follow the instructions below if you want to see how Robotium works and how an Android test project looks like. If you want to create a new test project where you have the source code then follow [http://wiebe-elsinga.com/blog/?p=300 this guide.] If you only have the apk file then download this [http://robotium.googlecode.com/files/RobotiumForBeginners.pdf tutorial.] 
 
-When you have created a new test project you need to add the [http://robotium.googlecode.com/files/robotium-solo-2.0.2.jar Robotium jar] to the build path. In Eclipse that is done by right clicking on the test project --> Properties --> Java Build Path --> Add (external) Jar.
+When you have created a new test project you need to add the [http://robotium.googlecode.com/files/robotium-solo-2.1.jar Robotium jar] to the build path. In Eclipse that is done by right clicking on the test project --> Properties --> Java Build Path --> Add (external) Jar.
 
 
 == Example test project ==
 
-In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject_v2.0.zip ExampleTestProject_v2.0.zip] which is an example test project created in Eclipse to test !NotePad. !NotePad is a sample project located in AndroidSDK/samples/android-8/!NotePad. 
+In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject_v2.1.zip ExampleTestProject_v2.1.zip] which is an example test project created in Eclipse to test !NotePad. !NotePad is a sample project located in AndroidSDK/samples/android-9/!NotePad. 
 
 In Eclipse click on File --> New --> Project --> Android Project --> Create Project from existing source --> !NotePad. 
 
-Then you import !ExampleTestProject_v2.0.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v2.0.zip.
+Then you import !ExampleTestProject_v2.1.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v2.1.zip.
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
 
