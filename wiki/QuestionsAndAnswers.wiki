@@ -74,4 +74,5 @@ If that does not solve the problem then try to add this tag to the !AndroidManif
 
 If neither of these solutions solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
 
- 
+=== Can I test with localised strings? === 
+Yes you can. You can use `solo.getString()` and in there pass in the resource id of the string that you want to use. You will need to have the source code of the application under test to access the strings. 
