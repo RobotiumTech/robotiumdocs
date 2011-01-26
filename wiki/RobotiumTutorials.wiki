@@ -10,6 +10,10 @@ Find the step by step tutorial from setting up Android working environment to te
 View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
 
+== Test Android .apk File With Robotium ==
+
+View/Download tutorial to [http://robotium.googlecode.com/files/RobotiumForBeginners.pdf Test Android .apk File With Robotium]
+----------------------------------------------------------------------
 
 == Designing Sample Android Application ==
 
