@@ -2,7 +2,7 @@
 #labels Featured
 
 == Getting started ==
-Follow the instructions below if you want to see how Robotium works and how an Android test project looks like. If you want to create a new test project then please go to the tutorials page [http://code.google.com/p/robotium/wiki/RobotiumTutorials tutorials page.]
+Follow the instructions below if you want to see how Robotium works and how an Android test project looks like. If you want to create a new test project then please go to the [http://code.google.com/p/robotium/wiki/RobotiumTutorials tutorials page.]
 
 When you have created a new test project you need to add the [http://robotium.googlecode.com/files/robotium-solo-2.1.jar Robotium jar] to the build path. In Eclipse that is done by right clicking on the test project --> Properties --> Java Build Path --> Add (external) Jar.
 
