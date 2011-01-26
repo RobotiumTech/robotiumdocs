@@ -1,7 +1,7 @@
 #summary Robotium Tutorials
 #labels Featured
 
-_Robotium Tutorials with example projects_
+Robotium Tutorials with example projects
 
 Find the step by step tutorial from setting up Android working environment to testing Android Application with Robotium 
 
@@ -19,11 +19,11 @@ View/Download tutorial to [http://robotium.googlecode.com/files/RobotiumForBegin
 
 == Design Sample Android Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Design Sample Android Application], and [http://robotium.googlecode.com/files/AndroidCalculator.zip Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Design Sample Android Application], and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
 ----------------------------------------------------------------------
 
 
 == Test Android Sample Application with Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Test%20Android%20Sample%20App.pdf Test Sample Android Application with Robotium], and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/Test%20Android%20Sample%20App.pdf Test Sample Android Application with Robotium], and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Sample Test Project Source Code]
 ----------------------------------------------------------------------
