@@ -4,17 +4,16 @@ Robotium Tutorials with example projects
 Find the step by step tutorial from setting up working environment to testing Android Application with Robotium 
 
 
-= Setting Up Working Environment =
+== Setting Up Working Environment ==
 
 Click here to setup Working environment for Android
 
 
-= Designing Sample Android Application =
+== Designing Sample Android Application ==
 
 Click here to design sample Android Application
 
 
-= Testing Android Sample Application with Robotium =
+== Testing Android Sample Application with Robotium ==
 
 Click here to test Sample Android Application with Robotium
-
