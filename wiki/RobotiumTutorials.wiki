@@ -1,4 +1,6 @@
+#summary Robotium Tutorials
 #labels Featured
+
 _Robotium Tutorials with example projects_
 
 Find the step by step tutorial from setting up Android working environment to testing Android Application with Robotium 
