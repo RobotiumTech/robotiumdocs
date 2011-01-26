@@ -7,7 +7,7 @@ Find the step by step tutorial from setting up Android working environment to te
 
 == Setting Up Working Environment ==
 
-View/Download tutorial to [http://code.google.com/p/robotium/downloads/detail?name=Set%20up%20Android%20Environment.pdf&can=4&q= Setup Working Environment for Android]
+View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
 
 
