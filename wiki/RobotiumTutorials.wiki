@@ -8,15 +8,16 @@ Find the step by step tutorial from setting up Android working environment to te
 == Setting Up Working Environment ==
 
 View/Download tutorial to setup Working environment for Android
-
+----------------------------------------------------------------------
 
 
 == Designing Sample Android Application ==
 
 View/Download tutorial to design sample Android Application, and project source code
-
+----------------------------------------------------------------------
 
 
 == Testing Android Sample Application with Robotium ==
 
 View/Download tutorial to test Sample Android Application with Robotium, and project source code
+----------------------------------------------------------------------
