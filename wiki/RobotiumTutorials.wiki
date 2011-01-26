@@ -1,13 +1,20 @@
-#Robotium Tutorials with example project
+#labels Featured
+Robotium Tutorials with example projects
 
-= Introduction =
-
-Add your content here.
+Find the step by step tutorial from setting up working environment to testing Android Application with Robotium 
 
 
-= Details =
+= Setting Up Working Environment =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Click here to setup Working environment for Android
+
+
+= Designing Sample Android Application =
+
+Click here to design sample Android Application
+
+
+= Testing Android Sample Application with Robotium =
+
+Click here to test Sample Android Application with Robotium
+
