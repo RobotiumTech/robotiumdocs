@@ -19,11 +19,11 @@ View/Download tutorial to [http://robotium.googlecode.com/files/RobotiumForBegin
 
 == Design Sample Android Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Design Sample Android Application], and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Design Sample Android Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
 ----------------------------------------------------------------------
 
 
 == Test Android Sample Application with Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Test%20Android%20Sample%20App.pdf Test Sample Android Application with Robotium], and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Sample Test Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/Test%20Android%20Sample%20App.pdf Test Sample Android Application with Robotium] and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Sample Test Project Source Code]
 ----------------------------------------------------------------------
