@@ -56,6 +56,27 @@ adb shell am instrument -w com.android.foo/android.test.InstrumentationTestRunne
 
 Where {{{com.android.foo}}} is the name of your test project's package. More on this can be [http://developer.android.com/reference/android/test/InstrumentationTestRunner.html found here.]
 
+=== Why do text and button clicks get wrong? ===
+
+If this problem happens on one of the supported versions then try to add this tag to the test project's !AndroidManifest.xml
+
+{{{
+<uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
+}}}
+
+Where {{{YOUR_VERSION}}} is {{{6}}} for Android 2.0, {{{7}}} for Android 2.1 and {{{8}}} for Android 2.2.
+
+If that does not solve the problem then try to add this tag to the !AndroidManifest.xml of the application you want to test:
+
+{{{
+<supports-screens android:anyDensity="true"/> 
+}}}
+
+If neither of these solutions solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
+
+=== Can I test with localised strings? === 
+Yes you can. You can use `solo.getString()` and in there pass in the resource id of the string that you want to use. You will need to have the source code of the application under test to access the strings. 
+
 === How can I get code coverage for my Robotium tests? ===
 You currently need to use ant (or for the perverse, the command line).
 
@@ -95,24 +116,3 @@ Here's the extract of my custom build.xml file.
 }}}
 
 You should copy and paste this into the current {{{build.xml}}} file for the tests. I'd also recommend creating or editing the {{{build.properties}}} files in the root folders of the tests and the target application with {{{emma.enabled=true}}}
-
-=== Why do text and button clicks get wrong? ===
-
-If this problem happens on one of the supported versions then try to add this tag to the test project's !AndroidManifest.xml
-
-{{{
-<uses-sdk android:targetSdkVersion="YOUR_VERSION" /> 
-}}}
-
-Where {{{YOUR_VERSION}}} is {{{6}}} for Android 2.0, {{{7}}} for Android 2.1 and {{{8}}} for Android 2.2.
-
-If that does not solve the problem then try to add this tag to the !AndroidManifest.xml of the application you want to test:
-
-{{{
-<supports-screens android:anyDensity="true"/> 
-}}}
-
-If neither of these solutions solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
-
-=== Can I test with localised strings? === 
-Yes you can. You can use `solo.getString()` and in there pass in the resource id of the string that you want to use. You will need to have the source code of the application under test to access the strings. 
