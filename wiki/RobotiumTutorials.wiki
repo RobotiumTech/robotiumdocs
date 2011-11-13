@@ -1,4 +1,3 @@
-#summary Robotium Tutorials
 #labels Featured
 
 Robotium tutorials with example projects
