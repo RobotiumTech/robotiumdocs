@@ -11,6 +11,12 @@ Download the [http://robotium.googlecode.com/files/robotium-solo-3.0.jar Robotiu
  
 Robotium officially supports Android 1.6 and up.
 
+=== Does Robotium support testing on real devices? ===
+
+Yes it does. One just needs to connect the device to the computer and execute the tests as usual. There can be issues with some vendor customizations of Android, but many times it is possible to get around the incompatibilities by the use of different Robotium methods. 
+ 
+Robotium officially supports Android 1.6 and up.
+
 === Which features does Robotium support? ===
 
 Please download the [http://robotium.googlecode.com/files/robotium-solo-3.0-javadoc.jar Javadoc] to see a full list of Robotium features. The Javadoc is a jar file that builds on the zip file format. If you do not know how to extract its content you can rename it to .zip instead and extract it with your favourite zip extraction tool.
