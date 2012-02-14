@@ -1,6 +1,6 @@
 #summary Use Robotium when only having apk
 
-With Robotium it is possible to run test cases on applications were you only have the apk file.
+With Robotium it is possible to run test cases on applications where you only have the apk file.
 
 For step by step instructions with images download this [http://robotium.googlecode.com/files/Test%20Android%20apk%20file%20with%20Robotium.pdf tutorial.] 
 
