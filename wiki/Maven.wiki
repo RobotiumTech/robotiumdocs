@@ -10,7 +10,7 @@ This is what you need:
         <dependency>
             <groupId>com.jayway.android.robotium</groupId>
             <artifactId>robotium-solo</artifactId>
-            <version>2.5</version>
+            <version>3.1</version>
         </dependency>
 
         ...
