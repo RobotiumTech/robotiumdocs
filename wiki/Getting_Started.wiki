@@ -9,7 +9,7 @@ To use Robotium, you need to add the [http://robotium.googlecode.com/files/robot
 
 == Example test project ==
 
-In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject_v3.2.1.zip ExampleTestProject_v3.2.zip] which includes a sample application and an example test project.
+In the Downloads section you will find [http://robotium.googlecode.com/files/ExampleTestProject_v3.2.1.zip ExampleTestProject_v3.2.1.zip] which includes a sample application and an example test project.
 
 Import !ExampleTestProject_v3.2.1.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v3.2.1.zip.
 
