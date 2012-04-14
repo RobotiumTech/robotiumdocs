@@ -1,13 +1,18 @@
-#Changelog
+= Robotium Changelog =
 
-= Introduction =
+Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. 
 
-Add your content here.
+== Robotium 3.2.1 Upcoming Release ==
+Will come up soon.
 
 
-= Details =
+== Robotium 3.2 Released ==
+I am happy to announce that Robotium 3.2 is now released. In this release many bugs have been fixed and new functionality has been implemented. The issue with getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed. Also new functionality like typeText() and finishInactiveActivities() have been implemented. 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=== New Functionality:===
+
+* typeText(int index, String text)  //Types text in an EditText field with a given index
+
+* typeText(EditText editText, String text)  //Types text in a given EditText field
+
+* finishInactiveActivities()  //Finishes inactive Activities
