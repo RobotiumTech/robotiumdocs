@@ -5,8 +5,8 @@
 In this release many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
-   * typeText(int index, String text)  //Types text in an EditText field with a given index
-   * typeText(EditText editText, String text)  //Types text in a given EditText field
+   * typeText(int index, String text)  //Types text in an {{{EditText}}} field with a given index
+   * typeText({{{EditText}}} editText, String text)  //Types text in a given {{{EditText}}} field
    * finishInactiveActivities()  //Finishes inactive Activities
 
 *Issues Fixed:*
