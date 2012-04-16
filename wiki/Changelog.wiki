@@ -248,17 +248,64 @@ been fixed in this release.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.4 Released ==
+== Robotium 1.7.1 Released ==
+Robotium 1.7.1 is now released which includes a fix to a very serious 
+problem that pjv found. Thank you pjv! The problem was that sometimes 
+Robotium would not return to the shown activity after a dialog was 
+shown. He had to use a workaround so that Robotium would understand 
+that the dialog was not shown anymore and that it should focus on the 
+Activity instead. That problem is now fixed and probably it fixes a 
+lot of other issues that people have experienced. Besides that, some 
+other small bugfixes have been made. 
 
-*New Functionality:*
-   * 
-   * 
-   * 
+== Robotium 1.7.0 Released ==
+In this release a great deal of time and effort went into improving 
+the existing functionality. I would like to thank all of you who have 
+offered ideas and have reported issues. It helped me in fine tuning 
+Robotium into a more stable and comprehensive framework. I am very 
+happy with the quality of this version and hope that you will be too. 
+
+Although a lot of time was spent on the current functionality there 
+are also new methods, such as: clickLongOnScreen(), clickOnText(String 
+text, int matches, boolean scroll), getImage(), getString(), 
+goBackToActivity() , clickOnMenuItem(String text, boolean subMenu) , 
+waitForActivity() and more. 
 
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.4 Released ==
+== Robotium 1.6.0 Released ==
+Robotium 1.6.0 is now released, A lot of improvements have been done to the previous methods especially the click, search and scroll methods. Also a lot more logging is done and more precise Assert messages are shown. 
+
+I want to thank Pigor, Satish and the rest of you for pointing out 
+limitations and coming with ideas on new functionality! This release 
+is a result of the discussions that we have here. I hope you will 
+enjoy this release. 
+
+*New Functionality:*
+   * This release includes the following new methods: assertLowMemory(), clickOnImageButton(), clickOnCheckBox(), isCheckBoxChecked(), getCurrentCheckBoxes(), getCurrentImageButtons(),  waitForText(String text, int matches, long timeout, boolean scroll), searchText(String search,intmatches,booleanscroll),clickOnEditText(),clickOnText(Stringtext, int match), clickLongOnText(String text, int match). 
+
+*Issues Fixed:*
+   * Some Issues..
+
+== Robotium 1.5.0 Released ==
+This release includes full support for Dialogs, Toasts, Menus and 
+Context Menus for all the methods in Robotium! 
+
+A lot of work has gone into making Robotium more stable for network 
+applications where content does not always show up immediately. This 
+is by far the most stable release of Robotium and one which I am very 
+proud of. 
+
+Besides the full support for Dialogs, Toasts, Menus and Context Menus 
+there are a lot of new features like waitForText(), clearEditText(), 
+clickOnMenu(), sendKeys(), isRadioButtonChecked(), 
+waitForDialogToClose() and much more. 
+
+*Issues Fixed:*
+   * Some Issues..
+
+== Robotium 111 Released ==
 
 *New Functionality:*
    * 
