@@ -2,7 +2,7 @@
 = Robotium Changelog =
 
 
-== Robotium 3.2.1 Released ==
+== Robotium 3.2.1 ==
 In this release many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
@@ -15,7 +15,7 @@ In this release many bugs have been fixed and new functionality has been impleme
    * Some other issues..
 
 
-== Robotium 3.1 Released ==
+== Robotium 3.1 ==
 Most efforts 
 have gone into improvements and also fixing issues that were 
 introduced in the 3.0 release. Also, many improvements have been made 
@@ -28,7 +28,7 @@ finishOpenedActivities() then please try this version instead.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 3.0 Released ==
+== Robotium 3.0 ==
 This release is 
 the fastest, lightest and most stable version of Robotium yet. More or 
 less all the code has been modified and improved in one way or 
@@ -53,7 +53,7 @@ finishOpenedActivities() instead.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.5 Released ==
+== Robotium 2.5 ==
 Robotium now supports 
 Android 3.2, Honecomb. Some minor annoying issues have also been fixed 
 to improve the overall experience. 
@@ -66,7 +66,7 @@ to improve the overall experience.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.4 Released ==
+== Robotium 2.4 ==
 Most of the work in this release has 
 gone into correcting defects and improving Robotium. The assert 
 methods have been re-designed in order to improve stability. 
@@ -77,7 +77,7 @@ methods have been re-designed in order to improve stability.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.3 Released ==
+== Robotium 2.3 ==
 It is mainly a maintenance release where 
 the issues reported have been corrected. 
 
@@ -87,7 +87,7 @@ the issues reported have been corrected.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.2 Released ==
+== Robotium 2.2 ==
 The biggest news in this release is a 
 new constructor which allows for only the instrumentation object to be 
 given: Solo(Instrumentation instrumentation). The Activity can later 
@@ -111,7 +111,7 @@ been made to improve performance and memory footprint.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.1 Released ==
+== Robotium 2.1 ==
 This release 
 not only brings new features but also a lot of internal changes and 
 improvements. Most of the work in this release has gone into making 
@@ -133,7 +133,7 @@ increase speed and accuracy
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.0.1 Released ==
+== Robotium 2.0.1 ==
 The 2.0 issues have been solved and 
 now it should work really well. It has been optimized and improved and 
 it is definitely faster then previous releases. It also supports more 
@@ -151,7 +151,7 @@ release.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 2.0 Released ==
+== Robotium 2.0 ==
 In this release two major problems have been resolved. The first problem was that in some application all views were not found. The second problem was that finalize() sometimes did not successfully close down Applications when used in a tearDown. To solve these problems some parts of Robotium have been fully rewritten and 
 improved.  Besides resolving these issues, optimizations and bugfixes 
 have also been made. 
@@ -167,7 +167,7 @@ have also been made.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.9.0 Released ==
+== Robotium 1.9.0 ==
 This is a release where most of the 
 work has gone into stability issues. After increasing so much in 
 functionality ever since the first release, this work was needed in 
@@ -191,7 +191,7 @@ precise.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.8.0 Released ==
+== Robotium 1.8.0 ==
 It brings new functionality as well as 
 many bug fixes and improvements in the existing code. 
 
@@ -210,7 +210,7 @@ many bug fixes and improvements in the existing code.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.7.1 Released ==
+== Robotium 1.7.1 ==
 Fix to a problem where sometimes 
 Robotium would not return to the shown activity after a dialog was 
 shown. That problem is now fixed and probably it fixes a 
@@ -220,7 +220,7 @@ other small bugfixes have been made.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.7.0 Released ==
+== Robotium 1.7.0 ==
 In this release a great deal of time and effort went into improving 
 the existing functionality.
 
@@ -234,7 +234,7 @@ waitForActivity() and more.
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.6.0 Released ==
+== Robotium 1.6.0 ==
 A lot of improvements have been done to the previous methods especially the click, search and scroll methods. Also a lot more logging is done and more precise Assert messages are shown. 
 
 
@@ -244,7 +244,7 @@ A lot of improvements have been done to the previous methods especially the clic
 *Issues Fixed:*
    * Some Issues..
 
-== Robotium 1.5.0 Released ==
+== Robotium 1.5.0 ==
 This release includes full support for Dialogs, Toasts, Menus and 
 Context Menus for all the methods in Robotium! 
 
