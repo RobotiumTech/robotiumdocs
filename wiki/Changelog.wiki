@@ -89,7 +89,7 @@ been made to improve performance and memory footprint.
    * clickLongInList(int line, int index) 
    * clickLongInList(int line, int index, int time) 
    * setSlidingDrawer(int index, int status) 
-   * setSlidingDrawer(SlidingDrawer slidingDrawer, int status) 
+   * setSlidingDrawer({{{SlidingDrawer}}} slidingDrawer, int status) 
 
 == Robotium 2.1 ==
 This release 
@@ -123,7 +123,7 @@ release.
    * clickLongOnView(view, time) 
    * clickLongOnText(String text, int match, int time) 
    * setProgressBar(index, progress) 
-   * Full support for ExpandableListViews 
+   * Full support for {{{ExpandableListViews}}}
 
 == Robotium 2.0 ==
 In this release two major problems have been resolved. The first problem was that in some application all views were not found. The second problem was that finalize() sometimes did not successfully close down Applications when used in a tearDown. To solve these problems some parts of Robotium have been fully rewritten and 
@@ -136,7 +136,7 @@ have also been made.
    * clickLongOnView(view, time) 
    * clickLongOnText(String text, int match, int time) 
    * setProgressBar(index, progress) 
-   * Full support for ExpandableListViews 
+   * Full support for {{{ExpandableListViews}}}
 
 == Robotium 1.9.0 ==
 This is a release where most of the 
@@ -151,12 +151,12 @@ precise.
 
 *New Functionality:*
    * waitForView(final Class{{{<T>}}} viewClass, final int minimumNumberOfMatches, final int timeout) Waits for a view a certain amount of time and returns true or false depending on result.
-   * enterText(EditText editText) enters text into an EditText
-   * clearEditText(EditText ediText) clears an EditText
-   * isTextChecked(String text) checks if a CheckedTextView or CompoundButton is checked 
+   * enterText({{{EditText}}} editText) enters text into an {{{EditText}}}
+   * clearEditText({{{EditText}}} ediText) clears an {{{EditText}}}
+   * isTextChecked(String text) checks if a {{{CheckedTextView}}} or {{{CompoundButton}}} is checked 
 
 *Re-written functionality:*
-   * ScrollList() that is now twice as fast as before and exactly one page is scrolled at a time. 
+   * {{{ScrollList}}}() that is now twice as fast as before and exactly one page is scrolled at a time. 
    * Multiple changes have also been made into various methods in order to not only improve functionality but also performance and stability
 
 == Robotium 1.8.0 ==
@@ -167,7 +167,7 @@ many bug fixes and improvements in the existing code.
    * getButton(String text), getText(String text) and getEditText(String text) which will return the view that displays a certain text so that questions can be asked directly to the view object it self
    * getView(int id) has also been added which will return a view depending on its id
    * searchText(String text, boolean onlyVisible), searchButton(String text, boolean onlyVisible) which will only search for visible views on the screen
-   * isToggleButtonChecked(String text) and isToggleButtonChecked(int index) will check if a ToggleButton is checked
+   * isToggleButtonChecked(String text) and isToggleButtonChecked(int index) will check if a {{{ToggleButton}}} is checked
    * isSpinnerTextSelected(int index, String text) and isSpinnerTextSelected(String text) will check if a spinner text is selected 
    * sendKey(Solo.CALL) and sendKey(Solo.ENDCALL) has been added to the existing keys
 
