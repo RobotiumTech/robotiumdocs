@@ -3,7 +3,7 @@
 
 
 == Robotium 3.2.1 Released ==
-Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented.
+In this release many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
    * typeText(int index, String text)  //Types text in an EditText field with a given index
