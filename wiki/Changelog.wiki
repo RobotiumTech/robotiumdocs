@@ -93,9 +93,7 @@ thank everyone that have reported issues. They have all been corrected
 and Robotium is now better then ever! 
 
 *New Functionality:*
-   * waitForActivity(String 
-name) which includes a default timeout of 20 seconds (similar to the 
-other waitFor methods). 
+   * waitForActivity(String name) which includes a default timeout of 20 seconds (similar to the other waitFor methods). 
 
 *Issues Fixed:*
    * Some Issues..
@@ -106,9 +104,7 @@ the issues reported have been corrected. Thanks for reporting issues,
 that is what makes Robotium better for every release. 
 
 *New Functionality:*
-   * getActivityMonitor() which returns the activity monitor used 
-by Robotium. Some users have requested the possibility to disable it in 
-order to set up their own activity monitors
+   * getActivityMonitor() which returns the activity monitor used by Robotium. Some users have requested the possibility to disable it in order to set up their own activity monitors
 
 *Issues Fixed:*
    * Some Issues..
@@ -156,7 +152,7 @@ applications. The issues that have been seen when using Robotium on
 complex applications have been addressed and resolved. 
 
 *New Functionality:*
-   * waitForView(Class<T> viewClass) 
+   * waitForView(Class"<T>" viewClass) 
    * getCurrentViews() 
    * pressMenuItem(int index, int itemsPerRow) 
    * sendKey() supports any key event 
