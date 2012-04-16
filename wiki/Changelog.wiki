@@ -209,13 +209,10 @@ and now the scroll is not only very fast but also controlled and
 precise. 
 
 *New Functionality:*
-   * waitForView(final Class{{{<T>}}} viewClass, final int
-minimumNumberOfMatches, final int timeout) Waits for a view a certain
-amount of time and returns true or false depending on result.
-   * enterText(EditText editText) enters text into an EditText 
-   * clearEditText(EditText ediText) clears an EditText 
-   * isTextChecked(String text) checks if a CheckedTextView or
-CompoundButton is checked 
+   * waitForView(final Class{{{<T>}}} viewClass, final int minimumNumberOfMatches, final int timeout) Waits for a view a certain amount of time and returns true or false depending on result.
+   * enterText(EditText editText) enters text into an EditText
+   * clearEditText(EditText ediText) clears an EditText
+   * isTextChecked(String text) checks if a CheckedTextView or CompoundButton is checked 
 
 *Re-written functionality:*
    * ScrollList() that is now twice as fast as before and exactly one page is scrolled at a time. 
