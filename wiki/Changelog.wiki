@@ -19,20 +19,9 @@ Robotium 3.2.1 is now released. In this release many bugs have been fixed and ne
    * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
    * Some other issues..
 
-== Robotium 3.2 Released ==
-Robotium 3.2 is now released. In this release many bugs have been fixed and new functionality has been implemented
-
-*New Functionality:*
-   * typeText(int index, String text)  //Types text in an EditText field with a given index
-   * typeText(EditText editText, String text)  //Types text in a given EditText field
-   * finishInactiveActivities()  //Finishes inactive Activities
-
-*Issues Fixed:*
-   * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
-   * Some other issues..
 
 == Robotium 3.1 Released ==
-Robotium 3.1 is now released. Most efforts 
+Most efforts 
 have gone into improvements and also fixing issues that were 
 introduced in the 3.0 release. Also, many improvements have been made 
 in the activity methods. If you have had issues with 
@@ -45,13 +34,10 @@ finishOpenedActivities() then please try this version instead.
    * Some Issues..
 
 == Robotium 3.0 Released ==
-Robotium 3.0 is now released. This release is 
+This release is 
 the fastest, lightest and most stable version of Robotium yet. More or 
 less all the code has been modified and improved in one way or 
-another, leading to a very stable version. This is an upgrade that I 
-recommend everyone to do.  With this release, Robotium is now fully 
-compatible with animation rich applications. No more freezes and slow 
-downs when the UI thread is being used. 
+another, leading to a very stable version. 
 
 One big change which breaks backward compatibility is that activities 
 are now closed with the new method finishOpenedActivities(). 
@@ -73,7 +59,7 @@ finishOpenedActivities() instead.
    * Some Issues..
 
 == Robotium 2.5 Released ==
-Robotium 2.5 is now released. Robotium now supports 
+Robotium now supports 
 Android 3.2, Honecomb. Some minor annoying issues have also been fixed 
 to improve the overall experience. 
 
@@ -86,11 +72,9 @@ to improve the overall experience.
    * Some Issues..
 
 == Robotium 2.4 Released ==
-Robotium 2.4 is now released! Most of the work in this release has 
+Most of the work in this release has 
 gone into correcting defects and improving Robotium. The assert 
-methods have been re-designed in order to improve stability. I want to 
-thank everyone that have reported issues. They have all been corrected 
-and Robotium is now better then ever! 
+methods have been re-designed in order to improve stability. 
 
 *New Functionality:*
    * waitForActivity(String name) which includes a default timeout of 20 seconds (similar to the other waitFor methods). 
@@ -99,9 +83,8 @@ and Robotium is now better then ever!
    * Some Issues..
 
 == Robotium 2.3 Released ==
-Robotium 2.3 is now released! It is mainly a maintenance release where 
-the issues reported have been corrected. Thanks for reporting issues, 
-that is what makes Robotium better for every release. 
+It is mainly a maintenance release where 
+the issues reported have been corrected. 
 
 *New Functionality:*
    * getActivityMonitor() which returns the activity monitor used by Robotium. Some users have requested the possibility to disable it in order to set up their own activity monitors
@@ -110,7 +93,7 @@ that is what makes Robotium better for every release.
    * Some Issues..
 
 == Robotium 2.2 Released ==
-Robotium 2.2. is now released! The biggest news in this release is a 
+The biggest news in this release is a 
 new constructor which allows for only the instrumentation object to be 
 given: Solo(Instrumentation instrumentation). The Activity can later 
 be started and Robotium will then pick it up. This will solve some 
@@ -121,10 +104,6 @@ set up. Now the activity can be started after Robotium.
 Also the whole view fecthing mechanism has been modified and improved 
 so that issues experienced with dialogs are solved. Changes has also 
 been made to improve performance and memory footprint. 
-
-I want to thank orrc and louth for contributing code and Naveed for 
-contributing documentation. I also want to thank all of you who have 
-reported issues. 
 
 *New Functionality:*
    * Solo(Instrumentation instrumentation) 
@@ -138,18 +117,14 @@ reported issues.
    * Some Issues..
 
 == Robotium 2.1 Released ==
-Robotium 2.1 is now released! This release 
+This release 
 not only brings new features but also a lot of internal changes and 
 improvements. Most of the work in this release has gone into making 
 Robotium better then before. The memory footprint has been reduced 
 which results in a more effective and lighter version of Robotium. 
 Furthermore the improvements that have been made to the whole scroll 
 and view fetching functionality makes this the smartest Robotium to 
-date. This is an update that I recommend everyone to do. 
-
-This realse also makes Robotium compatible with very complex 
-applications. The issues that have been seen when using Robotium on 
-complex applications have been addressed and resolved. 
+date. 
 
 *New Functionality:*
    * waitForView(Class{{{<T>}}} viewClass) 
@@ -164,7 +139,7 @@ increase speed and accuracy
    * Some Issues..
 
 == Robotium 2.0.1 Released ==
-Robotium 2.0.1 is now released. The 2.0 issues have been solved and 
+The 2.0 issues have been solved and 
 now it should work really well. It has been optimized and improved and 
 it is definitely faster then previous releases. It also supports more 
 (complex) applications. A lot of methods have been rewritten for this 
@@ -182,9 +157,9 @@ release.
    * Some Issues..
 
 == Robotium 2.0 Released ==
-Robotium 2.0 is now released! In this release two major problems have been resolved. The first problem was that in some application all views were not found. The second problem was that finalize() sometimes did not successfully close down Applications when used in a tearDown. To solve these problems some parts of Robotium have been fully rewritten and 
+In this release two major problems have been resolved. The first problem was that in some application all views were not found. The second problem was that finalize() sometimes did not successfully close down Applications when used in a tearDown. To solve these problems some parts of Robotium have been fully rewritten and 
 improved.  Besides resolving these issues, optimizations and bugfixes 
-have also been made. I am very exited about this release! 
+have also been made. 
 
 *New Functionality:*
    * setDatePicker(index, year, monthOfYear, dayOfMonth) 
@@ -198,7 +173,7 @@ have also been made. I am very exited about this release!
    * Some Issues..
 
 == Robotium 1.9.0 Released ==
-Robotium 1.9.0 is now released! This is a release where most of the 
+This is a release where most of the 
 work has gone into stability issues. After increasing so much in 
 functionality ever since the first release, this work was needed in 
 order to make the existing functionality perform well. Quality wise I 
@@ -222,16 +197,8 @@ precise.
    * Some Issues..
 
 == Robotium 1.8.0 Released ==
-Robotium 1.8.0 is now released! It brings new functionality as well as 
-many bug fixes and improvements in the existing code. I would like to 
-thank my colleague Hugo Josefson for refactoring, improving and 
-optimizing a lot of the existing code. I would also like to thank 
-simudvarac for adding functionality into robotium to filter out views 
-that are not visible. This is a feature that has been asked for on 
-this forum. I would also like to thank RAI for contributing 
-documentation. That is something that we need more of. Finally I would 
-like to thank all of you for reporting bugs and problems which have 
-been fixed in this release. 
+It brings new functionality as well as 
+many bug fixes and improvements in the existing code. 
 
 *New Functionality:*
    * getButton(String text), getText(String text) and getEditText(String text) which will return the view that displays a certain text so that questions can be asked directly to the view object it self
@@ -249,12 +216,9 @@ been fixed in this release.
    * Some Issues..
 
 == Robotium 1.7.1 Released ==
-Robotium 1.7.1 is now released which includes a fix to a very serious 
-problem that pjv found. Thank you pjv! The problem was that sometimes 
+Fix to a problem where sometimes 
 Robotium would not return to the shown activity after a dialog was 
-shown. He had to use a workaround so that Robotium would understand 
-that the dialog was not shown anymore and that it should focus on the 
-Activity instead. That problem is now fixed and probably it fixes a 
+shown. That problem is now fixed and probably it fixes a 
 lot of other issues that people have experienced. Besides that, some 
 other small bugfixes have been made. 
 
@@ -263,13 +227,11 @@ other small bugfixes have been made.
 
 == Robotium 1.7.0 Released ==
 In this release a great deal of time and effort went into improving 
-the existing functionality. I would like to thank all of you who have 
-offered ideas and have reported issues. It helped me in fine tuning 
-Robotium into a more stable and comprehensive framework. I am very 
-happy with the quality of this version and hope that you will be too. 
+the existing functionality.
 
-Although a lot of time was spent on the current functionality there 
-are also new methods, such as: clickLongOnScreen(), clickOnText(String 
+
+*New Functionality:*
+ * clickLongOnScreen(), clickOnText(String 
 text, int matches, boolean scroll), getImage(), getString(), 
 goBackToActivity() , clickOnMenuItem(String text, boolean subMenu) , 
 waitForActivity() and more. 
@@ -278,12 +240,8 @@ waitForActivity() and more.
    * Some Issues..
 
 == Robotium 1.6.0 Released ==
-Robotium 1.6.0 is now released, A lot of improvements have been done to the previous methods especially the click, search and scroll methods. Also a lot more logging is done and more precise Assert messages are shown. 
+A lot of improvements have been done to the previous methods especially the click, search and scroll methods. Also a lot more logging is done and more precise Assert messages are shown. 
 
-I want to thank Pigor, Satish and the rest of you for pointing out 
-limitations and coming with ideas on new functionality! This release 
-is a result of the discussions that we have here. I hope you will 
-enjoy this release. 
 
 *New Functionality:*
    * This release includes the following new methods: assertLowMemory(), clickOnImageButton(), clickOnCheckBox(), isCheckBoxChecked(), getCurrentCheckBoxes(), getCurrentImageButtons(),  waitForText(String text, int matches, long timeout, boolean scroll), searchText(String search,intmatches,booleanscroll),clickOnEditText(),clickOnText(Stringtext, int match), clickLongOnText(String text, int match). 
@@ -295,10 +253,6 @@ enjoy this release.
 This release includes full support for Dialogs, Toasts, Menus and 
 Context Menus for all the methods in Robotium! 
 
-A lot of work has gone into making Robotium more stable for network 
-applications where content does not always show up immediately. This 
-is by far the most stable release of Robotium and one which I am very 
-proud of. 
 
 Besides the full support for Dialogs, Toasts, Menus and Context Menus 
 there are a lot of new features like waitForText(), clearEditText(), 
