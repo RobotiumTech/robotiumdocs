@@ -1,12 +1,17 @@
+#labels Phase-Support
 = Robotium Changelog =
 
 Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. 
 
 
 == Robotium 3.2.1 Released ==
-I am happy to announce that Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented. The issue with getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed. Also new functionality like typeText() and finishInactiveActivities() have been implemented. 
+I am happy to announce that Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
    * typeText(int index, String text)  //Types text in an EditText field with a given index
    * typeText(EditText editText, String text)  //Types text in a given EditText field
    * finishInactiveActivities()  //Finishes inactive Activities
+
+*Issues Fixed:*
+   * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
+   * Many other issues..
