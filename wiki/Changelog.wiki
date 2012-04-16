@@ -8,7 +8,7 @@ We will come back soon with more new feature and issues fixed
 
 
 == Robotium 3.2.1 Released ==
-We are happy to announce that Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented.
+Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
    * typeText(int index, String text)  //Types text in an EditText field with a given index
@@ -17,10 +17,10 @@ We are happy to announce that Robotium 3.2.1 is now released. In this release ma
 
 *Issues Fixed:*
    * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
-   * Many other issues..
+   * Some other issues..
 
 == Robotium 3.2 Released ==
-We are happy to announce that Robotium 3.2 is now released. In this release many bugs have been fixed and new functionality has been implemented
+Robotium 3.2 is now released. In this release many bugs have been fixed and new functionality has been implemented
 
 *New Functionality:*
    * typeText(int index, String text)  //Types text in an EditText field with a given index
@@ -29,7 +29,51 @@ We are happy to announce that Robotium 3.2 is now released. In this release many
 
 *Issues Fixed:*
    * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
-   * Many other issues..
+   * Some other issues..
+
+== Robotium 3.1 Released ==
+Robotium 3.1 is now released. Most efforts 
+have gone into improvements and also fixing issues that were 
+introduced in the 3.0 release. Also, many improvements have been made 
+in the activity methods. If you have had issues with 
+finishOpenedActivities() then please try this version instead. 
+ 
+*New Functionality:*
+   * getView(Class viewClass, int index)  //Returns a view with a given 
+class and index 
+
+*Issues Fixed:*
+   * Some Issues..
+
+== Robotium 3.0 Released ==
+Robotium 3.0 is now released. This release is 
+the fastest, lightest and most stable version of Robotium yet. More or 
+less all the code has been modified and improved in one way or 
+another, leading to a very stable version. This is an upgrade that I 
+recommend everyone to do.  With this release, Robotium is now fully 
+compatible with animation rich applications. No more freezes and slow 
+downs when the UI thread is being used. 
+
+One big change which breaks backward compatibility is that activities 
+are now closed with the new method finishOpenedActivities(). 
+Finalize() does not close activities any more. If you have used 
+finalize() before, you will need to change that to 
+finishOpenedActivities() instead. 
+
+ 
+*New Functionality:*
+   * finishOpenedActivities()  //Closes the opened activities (replaces 
+finalize()) 
+   * waitForText(String text, int minimumNumberOfMatches, long timeout, boolean scroll, boolean onlyVisible) 
+   * waitForView(View view) 
+   * waitForView(View view, int timeout, boolean scroll) 
+
+*Modified methods:* 
+   * finalize() does not close activies anymore! 
+   * searchText() also searches error messages. 
+
+*Issues Fixed:*
+   * Some Issues..
 
 == Robotium 2.5 Released ==
 Robotium 2.5 is now released. Robotium now supports 
@@ -42,7 +86,4 @@ to improve the overall experience.
    * getEditText(String text, boolean onlyVisible)
 
 *Issues Fixed:*
-   * Many other issues..
-
-
-
+   * Some Issues..
