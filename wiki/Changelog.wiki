@@ -37,7 +37,7 @@ have gone into improvements and also fixing issues that were
 introduced in the 3.0 release. Also, many improvements have been made 
 in the activity methods. If you have had issues with 
 finishOpenedActivities() then please try this version instead. 
- 
+
 *New Functionality:*
    * getView(Class viewClass, int index)  //Returns a view with a given 
 class and index 
@@ -59,11 +59,10 @@ are now closed with the new method finishOpenedActivities().
 Finalize() does not close activities any more. If you have used 
 finalize() before, you will need to change that to 
 finishOpenedActivities() instead. 
-
  
 *New Functionality:*
-   * finishOpenedActivities()  //Closes the opened activities (replaces 
-finalize()) 
+   * finishOpenedActivities()  //Closes the opened activities
+(replaces inalize()) 
    * waitForText(String text, int minimumNumberOfMatches, long timeout, boolean scroll, boolean onlyVisible) 
    * waitForView(View view) 
    * waitForView(View view, int timeout, boolean scroll) 
