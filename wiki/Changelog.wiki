@@ -258,6 +258,9 @@ Activity instead. That problem is now fixed and probably it fixes a
 lot of other issues that people have experienced. Besides that, some 
 other small bugfixes have been made. 
 
+*Issues Fixed:*
+   * Some Issues..
+
 == Robotium 1.7.0 Released ==
 In this release a great deal of time and effort went into improving 
 the existing functionality. I would like to thank all of you who have 
