@@ -2,12 +2,9 @@
 
 Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. Summery will come here. 
 
-== Robotium 3.2.1 Upcoming Release ==
-Will come up soon.
 
-
-== Robotium 3.2 Released ==
-I am happy to announce that Robotium 3.2 is now released. In this release many bugs have been fixed and new functionality has been implemented. The issue with getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed. Also new functionality like typeText() and finishInactiveActivities() have been implemented. 
+== Robotium 3.2.1 Released ==
+I am happy to announce that Robotium 3.2.1 is now released. In this release many bugs have been fixed and new functionality has been implemented. The issue with getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed. Also new functionality like typeText() and finishInactiveActivities() have been implemented. 
 
 *New Functionality:*
    * typeText(int index, String text)  //Types text in an EditText field with a given index
