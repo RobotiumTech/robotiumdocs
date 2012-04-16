@@ -152,7 +152,8 @@ applications. The issues that have been seen when using Robotium on
 complex applications have been addressed and resolved. 
 
 *New Functionality:*
-   * waitForView(Class"<T>" viewClass) 
+   * waitForView(Class{<T>} viewClass) 
+<xmp><t></xmp>
    * getCurrentViews() 
    * pressMenuItem(int index, int itemsPerRow) 
    * sendKey() supports any key event 
