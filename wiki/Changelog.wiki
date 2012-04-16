@@ -1,6 +1,5 @@
 #labels Phase-Support
-= Robotium Changelog =
-
+== Robotium Changelog ==
 
 == Robotium 3.2.1 ==
 In this release many bugs have been fixed and new functionality has been implemented.
@@ -14,7 +13,6 @@ In this release many bugs have been fixed and new functionality has been impleme
    * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
    * Some other issues..
 
-
 == Robotium 3.1 ==
 Most efforts 
 have gone into improvements and also fixing issues that were 
@@ -24,9 +22,6 @@ finishOpenedActivities() then please try this version instead.
 
 *New Functionality:*
    * getView(Class viewClass, int index)   //Returns a view with a given class and index
-
-*Issues Fixed:*
-   * Some Issues..
 
 == Robotium 3.0 ==
 This release is 
@@ -50,9 +45,6 @@ finishOpenedActivities() instead.
    * finalize() does not close activies anymore! 
    * searchText() also searches error messages. 
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.5 ==
 Robotium now supports 
 Android 3.2, Honecomb. Some minor annoying issues have also been fixed 
@@ -63,9 +55,6 @@ to improve the overall experience.
    * getButton(String text, boolean onlyVisible) 
    * getEditText(String text, boolean onlyVisible)
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.4 ==
 Most of the work in this release has 
 gone into correcting defects and improving Robotium. The assert 
@@ -74,18 +63,12 @@ methods have been re-designed in order to improve stability.
 *New Functionality:*
    * waitForActivity(String name) which includes a default timeout of 20 seconds (similar to the other waitFor methods). 
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.3 ==
 It is mainly a maintenance release where 
 the issues reported have been corrected. 
 
 *New Functionality:*
    * getActivityMonitor() which returns the activity monitor used by Robotium. Some users have requested the possibility to disable it in order to set up their own activity monitors
-
-*Issues Fixed:*
-   * Some Issues..
 
 == Robotium 2.2 ==
 The biggest news in this release is a 
@@ -108,9 +91,6 @@ been made to improve performance and memory footprint.
    * setSlidingDrawer(int index, int status) 
    * setSlidingDrawer(SlidingDrawer slidingDrawer, int status) 
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.1 ==
 This release 
 not only brings new features but also a lot of internal changes and 
@@ -130,9 +110,6 @@ date.
    * Scrolling of scrollViews has also been completely re-designed to
 increase speed and accuracy
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.0.1 ==
 The 2.0 issues have been solved and 
 now it should work really well. It has been optimized and improved and 
@@ -148,9 +125,6 @@ release.
    * setProgressBar(index, progress) 
    * Full support for ExpandableListViews 
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 2.0 ==
 In this release two major problems have been resolved. The first problem was that in some application all views were not found. The second problem was that finalize() sometimes did not successfully close down Applications when used in a tearDown. To solve these problems some parts of Robotium have been fully rewritten and 
 improved.  Besides resolving these issues, optimizations and bugfixes 
@@ -163,9 +137,6 @@ have also been made.
    * clickLongOnText(String text, int match, int time) 
    * setProgressBar(index, progress) 
    * Full support for ExpandableListViews 
-
-*Issues Fixed:*
-   * Some Issues..
 
 == Robotium 1.9.0 ==
 This is a release where most of the 
@@ -188,9 +159,6 @@ precise.
    * ScrollList() that is now twice as fast as before and exactly one page is scrolled at a time. 
    * Multiple changes have also been made into various methods in order to not only improve functionality but also performance and stability
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 1.8.0 ==
 It brings new functionality as well as 
 many bug fixes and improvements in the existing code. 
@@ -206,9 +174,6 @@ many bug fixes and improvements in the existing code.
 *Re-written functionality:*
    * enterText() that works in a whole new way now and will work much better and faster then the last solution for entering text
    * scrollDown() and scrollUp() have been optimized and also now check for and locate a draggable area before trying to scroll
-   
-*Issues Fixed:*
-   * Some Issues..
 
 == Robotium 1.7.1 ==
 Fix to a problem where sometimes 
@@ -217,45 +182,44 @@ shown. That problem is now fixed and probably it fixes a
 lot of other issues that people have experienced. Besides that, some 
 other small bugfixes have been made. 
 
-*Issues Fixed:*
-   * Some Issues..
-
 == Robotium 1.7.0 ==
 In this release a great deal of time and effort went into improving 
 the existing functionality.
 
-
 *New Functionality:*
- * clickLongOnScreen(), clickOnText(String 
-text, int matches, boolean scroll), getImage(), getString(), 
-goBackToActivity() , clickOnMenuItem(String text, boolean subMenu) , 
-waitForActivity() and more. 
-
-*Issues Fixed:*
-   * Some Issues..
+  * clickLongOnScreen()
+  * clickOnText(String text, int matches, boolean scroll)
+  * getImage()
+  * getString() 
+  * goBackToActivity()
+  * clickOnMenuItem(String text, boolean subMenu)
+  * waitForActivity() and more. 
 
 == Robotium 1.6.0 ==
 A lot of improvements have been done to the previous methods especially the click, search and scroll methods. Also a lot more logging is done and more precise Assert messages are shown. 
 
-
 *New Functionality:*
-   * This release includes the following new methods: assertLowMemory(), clickOnImageButton(), clickOnCheckBox(), isCheckBoxChecked(), getCurrentCheckBoxes(), getCurrentImageButtons(),  waitForText(String text, int matches, long timeout, boolean scroll), searchText(String search,intmatches,booleanscroll),clickOnEditText(),clickOnText(Stringtext, int match), clickLongOnText(String text, int match). 
-
-*Issues Fixed:*
-   * Some Issues..
+   * assertLowMemory()
+   * clickOnImageButton()
+   * clickOnCheckBox()
+   * isCheckBoxChecked()
+   * getCurrentCheckBoxes()
+   * getCurrentImageButtons()
+   * waitForText(String text, int matches, long timeout, boolean scroll)
+   * searchText(Stringsearch,intmatches,booleanscroll)
+   * clickOnEditText()
+   * clickOnText(Stringtext, int match)
+   * clickLongOnText(String text, int match) 
 
 == Robotium 1.5.0 ==
 This release includes full support for Dialogs, Toasts, Menus and 
 Context Menus for all the methods in Robotium! 
-
 
 Besides the full support for Dialogs, Toasts, Menus and Context Menus 
 there are a lot of new features like waitForText(), clearEditText(), 
 clickOnMenu(), sendKeys(), isRadioButtonChecked(), 
 waitForDialogToClose() and much more. 
 
-*Issues Fixed:*
-   * Some Issues..
 
 == Robotium 111 Released ==
 
