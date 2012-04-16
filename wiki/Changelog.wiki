@@ -216,8 +216,7 @@ precise.
 
 *Re-written functionality:*
    * ScrollList() that is now twice as fast as before and exactly one page is scrolled at a time. 
-   * Multiple changes have also been made into various methods in order
-to not only improve functionality but also performance and stability. 
+   * Multiple changes have also been made into various methods in order to not only improve functionality but also performance and stability
 
 *Issues Fixed:*
    * Some Issues..
@@ -235,22 +234,15 @@ like to thank all of you for reporting bugs and problems which have
 been fixed in this release. 
 
 *New Functionality:*
-   * getButton(String text), getText(String text) and getEditText(String
-text) which will return the view that displays a certain text so that
-questions can be asked directly to the view object it self
+   * getButton(String text), getText(String text) and getEditText(String text) which will return the view that displays a certain text so that questions can be asked directly to the view object it self
    * getView(int id) has also been added which will return a view depending on its id
-   * searchText(String text, boolean onlyVisible), searchButton(String
-text, boolean onlyVisible) which will only search for visible views on the screen
-   * isToggleButtonChecked(String text) and isToggleButtonChecked(int
-index) will check if a ToggleButton is checked
-   * isSpinnerTextSelected(int index, String text) and isSpinnerTextSelected(String text) will check if a spinner text is
-selected 
-   * sendKey(Solo.CALL) and sendKey(Solo.ENDCALL) has been added to the
-existing keys
+   * searchText(String text, boolean onlyVisible), searchButton(String text, boolean onlyVisible) which will only search for visible views on the screen
+   * isToggleButtonChecked(String text) and isToggleButtonChecked(int index) will check if a ToggleButton is checked
+   * isSpinnerTextSelected(int index, String text) and isSpinnerTextSelected(String text) will check if a spinner text is selected 
+   * sendKey(Solo.CALL) and sendKey(Solo.ENDCALL) has been added to the existing keys
 
 *Re-written functionality:*
-   * enterText() that works in a whole new way now and will work much
-better and faster then the last solution for entering text
+   * enterText() that works in a whole new way now and will work much better and faster then the last solution for entering text
    * scrollDown() and scrollUp() have been optimized and also now check for and locate a draggable area before trying to scroll
    
 *Issues Fixed:*
