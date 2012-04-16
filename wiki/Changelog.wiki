@@ -39,8 +39,7 @@ in the activity methods. If you have had issues with
 finishOpenedActivities() then please try this version instead. 
 
 *New Functionality:*
-   * getView(Class viewClass, int index)  //Returns a view with a given
-class and index 
+   * getView(Class viewClass, int index)   //Returns a view with a given class and index
 
 *Issues Fixed:*
    * Some Issues..
