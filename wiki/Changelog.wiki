@@ -4,7 +4,7 @@
 == Robotium Changelog ==
 
 == Robotium 3.2.1 ==
-In this release many bugs have been fixed and new functionality has been implemented.
+Many bugs have been fixed and new functionality has been implemented.
 
 *New Functionality:*
    * typeText(int index, String text)  
