@@ -217,11 +217,13 @@ A lot of improvements have been done to the previous methods especially the clic
 This release includes full support for Dialogs, Toasts, Menus and 
 Context Menus for all the methods in Robotium! 
 
-Besides the full support for Dialogs, Toasts, Menus and Context Menus 
-there are a lot of new features like waitForText(), clearEditText(), 
-clickOnMenu(), sendKeys(), isRadioButtonChecked(), 
-waitForDialogToClose() and much more. 
-
+*New Functionality:*
+   * waitForText()
+   * clearEditText()
+   * clickOnMenu()
+   * sendKeys()
+   * isRadioButtonChecked()
+   * waitForDialogToClose()
 
 == Robotium 111 Released ==
 
