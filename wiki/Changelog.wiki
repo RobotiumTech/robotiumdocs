@@ -257,8 +257,12 @@ A lot of work has been done to improve the architecture for faster execution. Ro
    * getCurrentListViews
 
 == Robotium 1.1.1 Released ==
-We are happy to announce that Robotium 1.1.1 is now released! Changes
-include clicking on menu items, clicking on back hard key, much more
+Changes include clicking on menu items, clicking on back hard key, much more
 advanced enterText() that works in all text fields. Also general
 optimizations of the code has been performed for a stable and fast
 execution. 
+
+*New Functionality:*
+   * clickOnMenuItem()
+   * goBack()
+   * enterText()
