@@ -13,7 +13,7 @@ In this release many bugs have been fixed and new functionality has been impleme
 
 *Issues Fixed:*
    * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
-   * Some other issues..
+   
 
 == Robotium 3.1 ==
 Most efforts 
@@ -254,7 +254,7 @@ A lot of work has been done to improve the architecture for faster execution. Ro
 *New Functionality:*
    * assertCurrentActivity()
    * pressSpinnerItem()
-   * getCurrentListViews
+   * getCurrentListViews()
 
 == Robotium 1.1.1 Released ==
 Changes include clicking on menu items, clicking on back hard key, much more
