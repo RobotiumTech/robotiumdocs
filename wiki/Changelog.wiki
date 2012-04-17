@@ -109,8 +109,7 @@ date.
    * pressMenuItem(int index, int itemsPerRow) 
    * sendKey() supports any key event 
    * clickInList() has been completely re-designed to support all list implementations. 
-   * Scrolling of scrollViews has also been completely re-designed to
-increase speed and accuracy
+   * Scrolling of scrollViews has also been completely re-designed to increase speed and accuracy
 
 == Robotium 2.0.1 ==
 The 2.0 issues have been solved and 
@@ -263,6 +262,6 @@ optimizations of the code has been performed for a stable and fast
 execution. 
 
 *New Functionality:*
-   * clickOnMenuItem()
+   * clickOnMenuItem(String text)
    * goBack()
-   * enterText()
+   * enterText(int index, String text)
