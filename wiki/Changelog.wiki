@@ -12,12 +12,11 @@ In this release many bugs have been fixed and new functionality has been impleme
    * finishInactiveActivities()  
 
 *Issues Fixed:*
-   * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) is now fixed
+   * getCurrentActivity() not returning the correct Activity when back key is used (on Android 3.0+) 
    
 
 == Robotium 3.1 ==
-Most efforts 
-have gone into improvements and also fixing issues that were 
+Most efforts have gone into improvements and also fixing issues that were 
 introduced in the 3.0 release. Also, many improvements have been made 
 in the activity methods. If you have had issues with 
 finishOpenedActivities() then please try this version instead. 
