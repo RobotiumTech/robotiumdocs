@@ -223,7 +223,7 @@ Context Menus for all the methods in Robotium!
    * isRadioButtonChecked()
    * waitForDialogToClose()
 
-== Robotium 1.4.0 Released ==
+== Robotium 1.4.0 ==
 A lot of work has gone into optimizing and improving the existing
 functionality. More or less all the methods have been modified and
 improved. Robotium is now well prepared for a wide variety of Android
@@ -235,7 +235,7 @@ There is no need to add the GET_TASKS permission tag into the application that w
    * clickInList()
    * clickOnToggleButton() 
 
-== Robotium 1.3.1 Released ==
+== Robotium 1.3.1 ==
 A lot of work has gone into making it even faster then before. It is
 also more robust now as more checks are done before Robotium tries to
 do something. This results in a more stable and secure execution.
@@ -246,7 +246,7 @@ do something. This results in a more stable and secure execution.
    * clickLongOnScreen()
    * clickLongOnTextAndPress()
 
-== Robotium 1.2.1 Released ==
+== Robotium 1.2.1 ==
 A lot of work has been done to improve the architecture for faster execution. Robotium-Solo is now blazingly fast. Also most of the previous methods have been rewrittenin order to improve speed, decision makings and stability.
 
 *New Functionality:*
@@ -254,7 +254,7 @@ A lot of work has been done to improve the architecture for faster execution. Ro
    * pressSpinnerItem()
    * getCurrentListViews()
 
-== Robotium 1.1.1 Released ==
+== Robotium 1.1.1 ==
 Changes include clicking on menu items, clicking on back hard key, much more
 advanced enterText() that works in all text fields. Also general
 optimizations of the code has been performed for a stable and fast
