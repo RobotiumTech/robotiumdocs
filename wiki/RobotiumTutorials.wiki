@@ -17,7 +17,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidapkfi
 
 == Design Sample Android Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Create%20Android%20Sample%20App.pdf Design Sample Android Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Sample Android Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
 ----------------------------------------------------------------------
 
 
