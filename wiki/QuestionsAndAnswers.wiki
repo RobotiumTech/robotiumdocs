@@ -4,7 +4,7 @@
 
 === How do I get started with Robotium? ===
 
-Download the [http://robotium.googlecode.com/files/robotium-solo-3.2.1.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download a tutorial as well as a test project that can be run through Eclipse. 
+Download the [http://robotium.googlecode.com/files/robotium-solo-3.3.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download a tutorial as well as a test project that can be run through Eclipse. 
 
 
 === Which versions of Android does Robotium support? ===
@@ -17,7 +17,7 @@ Yes it does. One just needs to connect the device to the computer and execute th
  
 === Which features does Robotium support? ===
 
-Please download the [http://robotium.googlecode.com/files/robotium-solo-3.2.1-javadoc.jar Javadoc] to see a full list of Robotium features. The Javadoc is a jar file that builds on the zip file format. If you do not know how to extract its content you can rename it to .zip instead and extract it with your favourite zip extraction tool.
+Please download the [http://robotium.googlecode.com/files/robotium-solo-3.3-javadoc.jar Javadoc] to see a full list of Robotium features. The Javadoc is a jar file that builds on the zip file format. If you do not know how to extract its content you can rename it to .zip instead and extract it with your favourite zip extraction tool.
 
 
 === Is it possible to write a test case that spans over 2 applications? ===
@@ -47,7 +47,7 @@ No. Robotium will not be able to handle the flash or web components, it only wor
 
 === Can I take screenshots from inside of Robotium? ===
 
-No. To include this functionality an extra security tag will be required in the application under test (that allows of saving the screenshots). All who want to use Robotium would then be required to add that security permission tag to the AndroidManifest.xml of the application under test (even if they do not want to use that functionality). The Robotium users that do not have the possibility to add that security tag to the application under test would be unable to use Robotium. Thus it has not been included into the Robotium API.
+Yes. Use takeScreenshot() to save a screenshot in "/sdcard/Robotium-Screenshots/". Observe that this functionality requires write permission (android.permission.WRITE_EXTERNAL_STORAGE) in the AndroidManifest.xml of the application under test.
 
 
 === How do I run Robotium tests from the command line? ===
