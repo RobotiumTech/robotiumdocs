@@ -47,7 +47,7 @@ No. Robotium will not be able to handle the flash or web components, it only wor
 
 === Can I take screenshots from inside of Robotium? ===
 
-Yes. Use takeScreenshot() to save a screenshot in "/sdcard/Robotium-Screenshots/". Observe that this functionality requires write permission (android.permission.WRITE_EXTERNAL_STORAGE) in the AndroidManifest.xml of the application under test.
+Yes you can. Use takeScreenshot() to save a screenshot in "/sdcard/Robotium-Screenshots/". Observe that this functionality requires write permission (android.permission.WRITE_EXTERNAL_STORAGE) in the AndroidManifest.xml of the application under test.
 
 
 === How do I run Robotium tests from the command line? ===
