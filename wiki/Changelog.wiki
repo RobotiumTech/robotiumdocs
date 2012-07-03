@@ -3,6 +3,14 @@
 
 == Robotium Changelog ==
 
+== Robotium 3.3 ==
+Besides implementing new features and fixing bugs, areas which have previously been problematic have now been modified. The first area is the scroll functionality that has been modified in order to better decide which object that should be scrolled. The second area is the Activity manager.  The garbage collector can now garbage collect an Activity and all its objects without Robotium blocking it. This leads to a much smaller memory footprint.
+
+*New Functionality:*
+   * getCurrentImageViews(View parent)
+   * takeScreenshot()
+   * clickOnActionBarItem(int resourceId) 
+
 == Robotium 3.2.1 ==
 Many bugs have been fixed and new functionality has been implemented.
 
