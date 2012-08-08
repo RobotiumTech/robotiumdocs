@@ -3,6 +3,22 @@
 
 == Robotium Changelog ==
 
+== Robotium 3.4.1 ==
+Includes new functionality, bug fixes, as well as important changes to the activity handling. The memory footprint is reduced significantly and big test projects which had memory issues before run well now. 
+
+*New Functionality:*
+   * scrollToTop()
+   * scrollToBottom()
+   * clickOnActionBarItem(int resourceId) 
+   * scrollListToTop(int index) 
+   * scrollListToBottom(int index)
+   * waitForFragmentById(int id) 
+   * waitForFragmentByTag(String tag)
+   * waitForLogMessage(String logMessage)
+   * clickOnActionBarHomeItem()
+   * takeScreenShot(String filename) 
+
+
 == Robotium 3.3 ==
 Besides implementing new features and fixing bugs, areas which have previously been problematic have now been modified. The first area is the scroll functionality that has been modified in order to better decide which object that should be scrolled. The second area is the Activity manager.  The garbage collector can now garbage collect an Activity and all its objects without Robotium blocking it. This leads to a much smaller memory footprint.
 
