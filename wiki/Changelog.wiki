@@ -4,7 +4,7 @@
 == Robotium Changelog ==
 
 == Robotium 3.4.1 ==
-Includes new functionality, bug fixes, as well as important changes to the activity handling. The memory footprint is reduced significantly and big test projects which had memory issues before run well now. 
+New functionality, bug fixes, as well as important changes to the activity handling. The memory footprint is reduced significantly and big test projects which had memory issues before run well now. 
 
 *New Functionality:*
    * scrollToTop()
