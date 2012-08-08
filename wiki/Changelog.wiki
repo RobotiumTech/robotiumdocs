@@ -9,7 +9,6 @@ Includes new functionality, bug fixes, as well as important changes to the activ
 *New Functionality:*
    * scrollToTop()
    * scrollToBottom()
-   * clickOnActionBarItem(int resourceId) 
    * scrollListToTop(int index) 
    * scrollListToBottom(int index)
    * waitForFragmentById(int id) 
