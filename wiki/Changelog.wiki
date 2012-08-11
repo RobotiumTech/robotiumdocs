@@ -14,7 +14,7 @@ New functionality, bug fixes, as well as important changes to the activity handl
    * waitForFragmentById(int id) 
    * waitForFragmentByTag(String tag)
    * waitForLogMessage(String logMessage)
-   * clickOnActionBarHomeItem()
+   * clickOnActionBarHomeButton()
    * takeScreenShot(String filename) 
 
 
