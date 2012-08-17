@@ -12,7 +12,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Andro
 
 == Test Android APK File With Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidapkfilewithRobotium.pdf Test Android APK File With Robotium]
+View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidapkfilewithRobotium.pdf Test Android APK File With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip TestProject Source Code]
 ----------------------------------------------------------------------
 
 == Design Sample Android Application ==
