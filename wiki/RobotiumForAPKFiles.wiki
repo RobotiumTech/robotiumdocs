@@ -32,10 +32,9 @@ import com.jayway.android.robotium.solo.Solo;
 
 import android.test.ActivityInstrumentationTestCase2;
 
-@SuppressWarnings("unchecked")
+@SuppressWarnings("rawtypes")
 public class ReallyBlackboxTest extends ActivityInstrumentationTestCase2 {
 
-	private static final String TARGET_PACKAGE_ID = "com.newsrob";
 	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.newsrob.DashboardListActivity";
 
 	private static Class<?> launcherActivityClass;
@@ -49,7 +48,7 @@ public class ReallyBlackboxTest extends ActivityInstrumentationTestCase2 {
 	
 	@SuppressWarnings("unchecked")
 	public ReallyBlackboxTest() throws ClassNotFoundException {
-		super(TARGET_PACKAGE_ID, launcherActivityClass);
+		super(launcherActivityClass);
 	}
 	
 	private Solo solo;
