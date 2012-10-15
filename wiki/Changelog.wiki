@@ -3,7 +3,7 @@
 
 == Robotium Changelog ==
 
-== Robotium 3.5 ==
+== Robotium 3.5.1 ==
 New functionality, bug fixes and more improvements to the activity handling. The memory footprint has been further reduced  making this version of Robotium even lighter then before.. 
 
 *New Functionality:*
@@ -12,9 +12,6 @@ New functionality, bug fixes and more improvements to the activity handling. The
    * scrollUpList(AbsListView list) 
    * scrollListToBottom(AbsListView list) 
    * scrollListToTop(AbsListView list) 
-   * getCurrentNumberPickers() 
-   * setNumberPicker(int index, int value) 
-   * setNumberPicker(NumberPicker numberPicker, int value) 
 
 
 == Robotium 3.4.1 ==
