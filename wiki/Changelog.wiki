@@ -12,6 +12,7 @@ New functionality, bug fixes and more improvements to the activity handling. The
    * scrollUpList(AbsListView list) 
    * scrollListToBottom(AbsListView list) 
    * scrollListToTop(AbsListView list) 
+   * getCurrentNumberPickers()
 
 
 == Robotium 3.4.1 ==
