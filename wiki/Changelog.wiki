@@ -4,7 +4,7 @@
 == Robotium Changelog ==
 
 == Robotium 3.6 ==
-With this release there is full support for Android 4.2 (API Level 17). A part from several bug fixes, more optimisations and improvements have been done which results in the fastest and best Robotium to date.
+Full support for Android 4.2 (API Level 17). A part from several bug fixes, more optimisations and improvements have been done which results in the fastest and best Robotium to date.
 
 *New Functionality:*
    * scrollViewToSide(View view)
