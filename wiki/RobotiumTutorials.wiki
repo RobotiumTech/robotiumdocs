@@ -29,7 +29,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidCalcu
 
 == Common Robotium Issues ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
+View/Download tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
 ----------------------------------------------------------------------
 
 ==Video Tutorial==
