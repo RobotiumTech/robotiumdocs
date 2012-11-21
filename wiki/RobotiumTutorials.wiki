@@ -26,6 +26,12 @@ View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSam
 View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidCalculatorApp.pdf Test Sample Android Application with Robotium] and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Sample Test Project Source Code]
 ----------------------------------------------------------------------
 
+
+== Common Robotium Issues ==
+
+View/Download tutorial to [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
+----------------------------------------------------------------------
+
 ==Video Tutorial==
 
 [http://www.youtube.com/watch?v=T_8euppCz3k Click here for an external video tutorial]
