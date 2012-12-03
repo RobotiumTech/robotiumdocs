@@ -35,6 +35,6 @@ Ant should be version 1.8 or higher.
 
  The System environment variable *PATH* should contain the path to the Ant SDK's *bin* subfolder. 
 
-*4. Double-click or otherwise extract the contents of the RobotiumRCRelease ZIP into a directory.:* '<workdir>'
+*4. Double-click or otherwise extract the contents of the RobotiumRCRelease ZIP into a directory.:* {{{<workdir>}}}
 
 *5. In a CMD/Shell/Terminal window navigate to the {{{<workdir>}}} directory and execute the appropriate installation script:* 
