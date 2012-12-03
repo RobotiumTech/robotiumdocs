@@ -49,13 +49,6 @@ Ant should be version 1.8 or higher.
 
     or
 
-    *sudo  ./Setup-Unx.sh  $ANDROID_HOME*
+    *sudo*  *./Setup-Unx.sh*  *$ANDROID_HOME*
 
     If the script does not run at all:
-
-      *  make sure the scripts are executable:
-
-            chmod a+x *.sh
-
-      *   prefix the shell: '/bin/sh Setup-Mac.sh'
-        (Don't forget to use *sudo*, if necessary.) 
