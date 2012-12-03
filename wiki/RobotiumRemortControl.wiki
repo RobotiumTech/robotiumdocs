@@ -1,0 +1,12 @@
+#Remote Control for Robotium on the other hand will be similar in architecture to how Selenium RC works.
+= Introduction =
+With Remote Control, you will have the test classes run in your computer with normal JUnit and transparently communicating to the device what to manipulate. Having the test classes run on the computer instead, will mean that we can use other things on top, such as cucumber or anything which can deal with the JVM.
+
+For this to work, there will need to be some kind of remote control receiver, or server component really, in the device with instrumentation permissions. When the test classes run in the computer, and talk to the Robotium Remote Control component, that component will actually be a proxy which relays the method calls somehow over to the server component installed on the device. It will then perform the actual actions, such as looking for things on screen and manipulating them. Responses to method calls are transferred back to the computer and returned out from the proxy. 
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
