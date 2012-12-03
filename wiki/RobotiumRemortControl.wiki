@@ -46,7 +46,9 @@ Ant should be version 1.8 or higher.
     On Mac, and possibly some incantations of Unix, the user may be required to use *sudo* as follows:
 
     *sudo  ./Setup-Mac.sh  $ANDROID_HOME*
+
     or
+
     *sudo  ./Setup-Unx.sh  $ANDROID_HOME*
 
     If the script does not run at all:
@@ -55,5 +57,5 @@ Ant should be version 1.8 or higher.
 
             chmod a+x *.sh
 
-      *  prefix the shell: '/bin/sh Setup-Mac.sh'
+      *   prefix the shell: '/bin/sh Setup-Mac.sh'
         (Don't forget to use *sudo*, if necessary.) 
