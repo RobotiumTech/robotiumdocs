@@ -45,7 +45,7 @@ Ant should be version 1.8 or higher.
 
     On Mac, and possibly some incantations of Unix, the user may be required to use *sudo* as follows:
 
-    *sudo  ./Setup-Mac.sh  $ANDROID_HOME*
+    *sudo*  *./Setup-Mac.sh*  *$ANDROID_HOME*
 
     or
 
