@@ -6,7 +6,8 @@ For this to work, there will need to be some kind of remote control receiver, or
 
 = Install Instructions: =
 *1. Verify [http://www.oracle.com/technetwork/java/javase/downloads/index.html (Install if needed)] a Java JDK (not a JRE):*
+
 The Java SDK should be version 1.6 or higher.
 
-* The System environment variable *JAVA_HOME* should be set to the path to the Java SDK.
-* The System environment variable *PATH* should contain the path to the Java SDK 'bin' subfolder. 
+ The System environment variable *JAVA_HOME* should be set to the path to the Java SDK.
+ The System environment variable *PATH* should contain the path to the Java SDK 'bin' subfolder. 
