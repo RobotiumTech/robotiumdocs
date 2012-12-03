@@ -38,3 +38,22 @@ Ant should be version 1.8 or higher.
 *4. Double-click or otherwise extract the contents of the RobotiumRCRelease ZIP into a directory.:* {{{<workdir>}}}
 
 *5. In a CMD/Shell/Terminal window navigate to the {{{<workdir>}}} directory and execute the appropriate installation script:* 
+
+    Windows: Setup-Win.bat %ANDROID_HOME% or {{{<path-to-android-sdk>}}}
+       Unix: Setup-Unx.sh  $ANDROID_HOME  or {{{<path-to-android-sdk>}}}
+        Mac: Setup-Mac.sh  $ANDROID_HOME  or {{{<path-to-android-sdk>}}}
+
+    On Mac, and possibly some incantations of Unix, the user may be required to use *sudo* as follows:
+
+    *sudo  ./Setup-Mac.sh  $ANDROID_HOME*
+    or
+    *sudo  ./Setup-Unx.sh  $ANDROID_HOME*
+
+    If the script does not run at all:
+
+      *  make sure the scripts are executable:
+
+            chmod a+x *.sh
+
+      *  prefix the shell: '/bin/sh Setup-Mac.sh'
+        (Don't forget to use *sudo*, if necessary.) 
