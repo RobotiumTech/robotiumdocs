@@ -10,4 +10,18 @@ For this to work, there will need to be some kind of remote control receiver, or
 The Java SDK should be version 1.6 or higher.
 
  The System environment variable *JAVA_HOME* should be set to the path to the Java SDK.
- The System environment variable *PATH* should contain the path to the Java SDK 'bin' subfolder. 
+
+ The System environment variable *PATH* should contain the path to the Java SDK *bin* subfolder. 
+
+*2. Verify [http://developer.android.com/sdk/index.html (Install if needed)] the Android SDK:*
+
+The recommended Android API Level supported should be 15 or higher.
+
+ The System environment variable *ANDROID_HOME* should be set to the path to the Android SDK.
+ The System environment variable *PATH* should contain the paths to both the Android SDK's *tools* and *platform-tools* subfolders.
+
+*NOTE:*
+
+    To test on an *Android Emulator*, you must verify/prepare an appropriate *AVD* with the *android* tool provided with the Android SDK.  Refer to the Android Developers documentation for details.
+
+    To test on a real device, you must verify/prepare any required connections and/or drivers for your device.  Refer to the Android Developers documentation for details. 
