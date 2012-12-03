@@ -10,7 +10,6 @@ For this to work, there will need to be some kind of remote control receiver, or
 The Java SDK should be version 1.6 or higher.
 
  The System environment variable *JAVA_HOME* should be set to the path to the Java SDK.
-
  The System environment variable *PATH* should contain the path to the Java SDK *bin* subfolder. 
 
 *2. Verify [http://developer.android.com/sdk/index.html (Install if needed)] the Android SDK:*
