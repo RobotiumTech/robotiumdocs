@@ -4,9 +4,9 @@ With Remote Control, you will have the test classes run in your computer with no
 
 For this to work, there will need to be some kind of remote control receiver, or server component really, in the device with instrumentation permissions. When the test classes run in the computer, and talk to the Robotium Remote Control component, that component will actually be a proxy which relays the method calls somehow over to the server component installed on the device. It will then perform the actual actions, such as looking for things on screen and manipulating them. Responses to method calls are transferred back to the computer and returned out from the proxy. 
 
-= Details =
+= Install Instructions: =
+*1. Verify [http://www.oracle.com/technetwork/java/javase/downloads/index.html (Install if needed)] a Java JDK (not a JRE):*
+The Java SDK should be version 1.6 or higher.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* The System environment variable *JAVA_HOME* should be set to the path to the Java SDK.
+* The System environment variable *PATH* should contain the path to the Java SDK 'bin' subfolder. 
