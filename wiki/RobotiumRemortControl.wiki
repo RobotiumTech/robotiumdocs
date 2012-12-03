@@ -1,4 +1,4 @@
-Remote Control for Robotium on the other hand will be similar in architecture to how [Selenium RC]http://seleniumhq.org/docs/05_selenium_rc.html works.
+Remote Control for Robotium on the other hand will be similar in architecture to how [http://seleniumhq.org/docs/05_selenium_rc.html Selenium RC] works.
 = Introduction =
 With Remote Control, you will have the test classes run in your computer with normal JUnit and transparently communicating to the device what to manipulate. Having the test classes run on the computer instead, will mean that we can use other things on top, such as cucumber or anything which can deal with the JVM.
 
