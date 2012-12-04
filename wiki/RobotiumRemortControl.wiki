@@ -87,8 +87,8 @@ Go to the {{{RobotiumTestRunner project and verify/edit the file local.propertie
 
 *sdk.dir*={{{<path-to-android-sdk>}}}
 
-{{{For a one-time TestRunner build, edit the RobotiumTestRunner AndroidManifest.xml file:
-Within the *<instrumentation* element set the *android:targetPackage* attribute to match the package of the *AUT* you will be testing:}}}
+For a one-time {{{TestRunner build}}}, edit the {{{RobotiumTestRunner AndroidManifest.xml file:}}}
+Within the *<instrumentation* element set the *android:targetPackage* attribute to match the package of the *AUT* you will be testing:
 
  android:targetPackage ="com.my.company.app.package"
 
