@@ -60,8 +60,8 @@ Required only once to build with your tester/developer debug profile.
  
 Go to the SAFSTCPMessenger project and verify/edit the file local.properties:
 
- *sdk.dir* ={{{<path-to-android-sdk>}}}
- *safs.droid.automation.libs* =<path-to\RobotiumTestRunner\libs> 
+ sdk.dir ={{{<path-to-android-sdk>}}}
+ safs.droid.automation.libs =<path-to\RobotiumTestRunner\libs> 
 
 In a CMD/Shell/Terminal window navigate to the *SAFSTCPMessenger* project directory.
 
