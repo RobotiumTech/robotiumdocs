@@ -1,16 +1,16 @@
 #labels Deprecated
 = Test Development =
-You can use the SoloRemoteControl project installed with RobotiumRemote control as a reference for your own Java development project. The SoloRemoteControl/src directory contains all the sourcecode contained in the robotium-remotecontrol.jar.
+You can use the {{{SoloRemoteControl}}} project installed with {{{RobotiumRemote control}}} as a reference for your own Java development project. The {{{SoloRemoteControl/src}}} directory contains all the source code contained in the {{{robotium-remotecontrol.jar.}}}
 
-*1. Create your Java development project and reference the following JAR files:*
+*1. Create your Java development project and reference the following *JAR* files:*
 
-These can be found in SoloRemoteControl/libs:
+These can be found in {{{SoloRemoteControl/libs:}}}
 
-    robotium-remotecontrol.jar
+    {{{robotium-remotecontrol.jar}}}
 
-    safssockets.jar
+    {{{safssockets.jar}}}
 
-    safsautoandroid.jar
+    {{{safsautoandroid.jar}}}
 
 *2. Create your MyTest class:*
 
