@@ -6,9 +6,11 @@ You can use the {{{SoloRemoteControl}}} project installed with {{{RobotiumRemote
 
 These can be found in {{{SoloRemoteControl/libs:}}}
 
- * {{{robotium-remotecontrol.jar}}}
- * {{{safssockets.jar}}}
- * {{{safsautoandroid.jar}}}
+  {{{robotium-remotecontrol.jar}}}
+
+  {{{safssockets.jar}}}
+
+  {{{safsautoandroid.jar}}}
 
 *2. Create your {{{MyTest}}} class:*
 
