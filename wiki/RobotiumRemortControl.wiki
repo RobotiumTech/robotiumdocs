@@ -57,7 +57,7 @@ If the script does not run at all:
 *6. Rebuild SAFSTCPMessenger-debug.apk:*
 
 Required only once to build with your tester/developer debug profile.
- 
+
 Go to the SAFSTCPMessenger project and verify/edit the file local.properties:
 
  * sdk.dir ={{{<path-to-android-sdk>}}}
@@ -79,25 +79,25 @@ There is a *CLASSPATH* issue which is usually resolved by eliminating the System
 
 Then try the 'ant debug' command again in that same *CMD* window. 
 
-*7. Rebuild RobotiumTestRunner-debug.apk:*
+*7. Rebuild {{{RobotiumTestRunner-debug.apk:}}}*
 
 Required only once to build with your tester/developer debug profile.
 
-Go to the RobotiumTestRunner project and verify/edit the file local.properties:
+Go to the {{{RobotiumTestRunner project and verify/edit the file local.properties:}}}
 
 *sdk.dir*={{{<path-to-android-sdk>}}}
 
-For a one-time TestRunner build, edit the RobotiumTestRunner AndroidManifest.xml file:
-Within the *<instrumentation* element set the *android:targetPackage* attribute to match the package of the *AUT* you will be testing:
+{{{For a one-time TestRunner build, edit the RobotiumTestRunner AndroidManifest.xml file:
+Within the *<instrumentation* element set the *android:targetPackage* attribute to match the package of the *AUT* you will be testing:}}}
 
  android:targetPackage ="com.my.company.app.package"
 
-(As an advanced feature, the framework can rebuild the RobotiumTestRunner at runtime to match the targetPackage of whatever AUT is specified for testing.)
+(As an advanced feature, the framework can rebuild the {{{RobotiumTestRunner}}} at runtime to match the targetPackage of whatever AUT is specified for testing.)
 
-In a CMD/Shell/Terminal window navigate to the RobotiumTestRunner project directory.
+In a CMD/Shell/Terminal window navigate to the {{{RobotiumTestRunner}}} project directory.
 
- * Enter 'ant debug' to build the RobotiumTestRunner-debug.apk.
- * Verify the APK was built in the RobotiumTestRunner 'bin' subfolder.
+ * Enter 'ant debug' to build the {{{RobotiumTestRunner-debug.apk.}}}
+ * Verify the APK was built in the {{{RobotiumTestRunner}}} 'bin' subfolder.
 
 *On Windows:*
 If you receive a *BUILD FAILED* message along with "Could not create task or type of type: componentdef.":
@@ -110,7 +110,7 @@ Then try the 'ant debug' command again in that same *CMD* window.
 
 *8. Repackage your *AUT APK* with your tester/developer debug profile(if needed):*
 
-3rd-party 're-sign.jar' is located in the SoloRemoteControl 'libs' subfolder.
+3rd-party 're-sign.jar' is located in the {{{SoloRemoteControl}}} *libs* subfolder.
     The re-sign application takes 2 parameters:
 
         {{{<in>}}} path to AUT apk to re-sign
@@ -118,7 +118,7 @@ Then try the 'ant debug' command again in that same *CMD* window.
         {{{<out>}}} path to newly created AUT-debug.apk 
 
  In a *CMD/Shell/Terminal* window run the re-sign Java program:
-(Practice on the SampleSpinner *APK* provided with RobotiumRC)
+(Practice on the {{{SampleSpinner}}} *APK* provided with RobotiumRC)
 
  {{{java -jar <path\to\re-sign.jar> <path\to\SpinnerActivity.apk> <out\to\SpinnerActivity-debug.apk>}}}
 
