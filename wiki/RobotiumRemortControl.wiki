@@ -60,9 +60,8 @@ Required only once to build with your tester/developer debug profile.
  
 Go to the SAFSTCPMessenger project and verify/edit the file local.properties:
 
- sdk.dir ={{{<path-to-android-sdk>}}}
-
- safs.droid.automation.libs ={{{<path-to\RobotiumTestRunner\libs>}}} 
+ * sdk.dir ={{{<path-to-android-sdk>}}}
+ * safs.droid.automation.libs ={{{<path-to\RobotiumTestRunner\libs>}}} 
 
 In a *CMD/Shell/Terminal* window navigate to the *SAFSTCPMessenger* project directory.
 
@@ -121,6 +120,6 @@ Then try the 'ant debug' command again in that same *CMD* window.
  In a *CMD/Shell/Terminal* window run the re-sign Java program:
 (Practice on the SampleSpinner *APK* provided with RobotiumRC)
 
- java -jar <path\to\re-sign.jar> <path\to\SpinnerActivity.apk> <out\to\SpinnerActivity-debug.apk>
+ {{{java -jar <path\to\re-sign.jar> <path\to\SpinnerActivity.apk> <out\to\SpinnerActivity-debug.apk>}}}
 
  Verify the *AUT-debug.apk* was built in the target output path. 
