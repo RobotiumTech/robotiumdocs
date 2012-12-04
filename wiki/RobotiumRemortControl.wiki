@@ -104,9 +104,9 @@ If you receive a *BUILD FAILED* message along with "Could not create task or typ
 
 There is a *CLASSPATH* issue which is usually resolved by eliminating the System *CLASSPATH* in the *CMD* window with:
 
-    *set CLASSPATH* = (leave blank)
+    * set CLASSPATH* = (leave blank)
 
-Then try the 'ant debug' command again in that same *CMD* window. 
+Then try the *ant debug* command again in that same *CMD* window. 
 
 *8. Repackage your *AUT APK* with your tester/developer debug profile(if needed):*
 
