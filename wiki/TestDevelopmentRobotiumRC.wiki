@@ -2,32 +2,30 @@
 = Test Development =
 You can use the {{{SoloRemoteControl}}} project installed with {{{RobotiumRemote control}}} as a reference for your own Java development project. The {{{SoloRemoteControl/src}}} directory contains all the source code contained in the {{{robotium-remotecontrol.jar.}}}
 
-*1. Create your Java development project and reference the following *JAR* files:*
+*1. Create your Java development project and reference the following JAR files:*
 
 These can be found in {{{SoloRemoteControl/libs:}}}
 
     {{{robotium-remotecontrol.jar}}}
-
     {{{safssockets.jar}}}
-
     {{{safsautoandroid.jar}}}
 
 *2. Create your MyTest class:*
 
 For simplicity, this class should extend the [http://safsdev.sourceforge.net/doc/com/jayway/android/robotium/remotecontrol/solo/SoloTest.html SoloTest] class.
-The source for SoloTest can be found in the SoloRemoteControl/src folder at:
+The source for {{{SoloTest}}} can be found in the {{{SoloRemoteControl/src}}} folder at:
 
-    com/jayway/android/robotium/remotecontrol/solo/SoloTest.java
+    {{{com/jayway/android/robotium/remotecontrol/solo/SoloTest.java}}}
 
-You can find the sample code below in the SoloRemoteControl/src folder at:
+You can find the sample code below in the {{{SoloRemoteControl/src}}} folder at:
 
-    com/jayway/android/robotium/remotecontrol/MyTest.java
+    {{{com/jayway/android/robotium/remotecontrol/MyTest.java}}}
 
-Your MyTest class will need to minimally import a few classes:
+Your *MyTest* class will need to minimally import a few classes:
 
-    import java.util.Properties;
+    {{{import java.util.Properties;}}}
 
-    import com.jayway.android.robotium.remotecontrol.solo.Message;
+    {{{import com.jayway.android.robotium.remotecontrol.solo.Message;}}}
 
     import com.jayway.android.robotium.remotecontrol.solo.SoloTest;
 
