@@ -1,4 +1,4 @@
-#summary RCInstallInstructions
+#summary Remote Control Install Instructions
 #labels Deprecated
 
 = Install Instructions: =
