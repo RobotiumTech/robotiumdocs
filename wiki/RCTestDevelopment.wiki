@@ -1,4 +1,4 @@
-#summary Remote Control Install Instructions
+#summary Remote Control Test Development
 #labels Deprecated
 
 = Test Development =
