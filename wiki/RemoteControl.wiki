@@ -1,4 +1,4 @@
-#summary Remote Control for Robotium.
+#summary Remote Control for Robotium
 #labels Phase-Requirements,Phase-Design,Deprecated
 
 == Introduction ==
