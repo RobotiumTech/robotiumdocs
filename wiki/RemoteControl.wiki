@@ -7,11 +7,11 @@ Robotium Remote Control makes it possible for Robotium test cases to be executed
 
 == Installation Instructions ==
 
-Install instructions [http://code.google.com/p/robotium/wiki/RCInstallInstructions Robotium Remote Control install instructions]
+[http://code.google.com/p/robotium/wiki/RCInstallInstructions Robotium Remote Control install instructions]
 
 == Test Development ==
 
-Test Development [http://code.google.com/p/robotium/wiki/RCTestDevelopment Develop test cases with Robotium Remote Control]
+[http://code.google.com/p/robotium/wiki/RCTestDevelopment Develop test cases with Robotium Remote Control]
 
 
  
