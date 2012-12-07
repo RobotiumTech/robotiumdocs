@@ -7,6 +7,8 @@ There have been some questions regarding when and how Remote Control for Robotiu
 
 == How it works ==
 
+Remote Control install instructions [http://robotium.googlecode.com/wiki/RCInstallInstructions Common Robotium Issues]
+
 === Currently with Robotium === 
 Currently, Robotium is a library you include in your ordinary instrumentation tests. Instrumentation tests for Android are built as a separate apk, and installed on the device along the application apk you wish to test.
 
