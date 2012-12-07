@@ -1,4 +1,6 @@
+#summary RCInstallInstructions
 #labels Deprecated
+
 = Test Development =
 You can use the {{{SoloRemoteControl}}} project installed with {{{RobotiumRemote control}}} as a reference for your own Java development project. The {{{SoloRemoteControl/src}}} directory contains all the source code contained in the {{{robotium-remotecontrol.jar.}}}
 
