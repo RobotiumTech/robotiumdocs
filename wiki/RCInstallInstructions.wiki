@@ -1,5 +1,5 @@
+#summary RCInstallInstructions
 #labels Deprecated
-#RCInstallInstructions
 
 = Install Instructions: =
 *1. Verify [http://www.oracle.com/technetwork/java/javase/downloads/index.html (Install if needed)] a Java JDK (not a JRE):*
