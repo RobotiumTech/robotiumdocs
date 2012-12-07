@@ -3,7 +3,7 @@
 
 == Introduction ==
 
-Robotium Remote Control makes it possible for Robotium test cases to be executed from the JVM. Making it possible to use Robotium with JVM frameworks like JUNit 4.
+Robotium Remote Control makes it possible for Robotium test cases to be executed from the JVM. This enables Robotium to work with JVM frameworks like JUNit 4.
 
 == Installation Instructions ==
 
