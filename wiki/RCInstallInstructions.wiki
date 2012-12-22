@@ -1,5 +1,5 @@
 #summary Remote Control Install Instructions
-#labels Deprecated
+#labels Phase-Deploy,Deprecated
 
 = Install Instructions: =
 *1. Verify [http://www.oracle.com/technetwork/java/javase/downloads/index.html (Install if needed)] a Java JDK (not a JRE):*
