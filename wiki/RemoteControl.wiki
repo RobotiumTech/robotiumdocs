@@ -15,4 +15,4 @@ Robotium Remote Control makes it possible for Robotium test cases to be executed
 
 == Download ==
 
-[http://robotium.googlecode.com/files/TestAndroidapkfilewithRobotium.pdf Test Android APK File With Robotium] and [http://robotium.googlecode.com/files/RobotiumRC2012.12.12.ZIP Robotium RC 2012.12.12]
+[http://robotium.googlecode.com/files/RobotiumRC2012.12.12.ZIP Robotium RC 2012.12.12]
