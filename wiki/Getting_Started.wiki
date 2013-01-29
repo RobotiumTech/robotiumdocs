@@ -25,8 +25,7 @@ public class EditorTest extends
   private Solo solo;
 
   public EditorTest() {
-		super("com.test.editor",
-				EditorActivity.class);
+		super(EditorActivity.class);
   }
 
   public void setUp() throws Exception {
