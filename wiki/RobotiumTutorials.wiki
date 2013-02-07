@@ -5,33 +5,27 @@ Below you find step by step tutorials, from setting up Android working environme
 
 
 
-== Set Up Working Environment ==
+== Set Up Adnroid Working Environment ==
 
 View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
-
-== Test Android Sample APK File With Robotium ==
-
-View/Download tutorial to [http://robotium.googlecode.com/files/TestSampleAPK.pdf Test Android Sample APK File With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip TestProject Source Code]
-----------------------------------------------------------------------
-
-== Design Sample Android Application ==
+== Design Simple Android Calculator Application ==
 
 View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Sample Android Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
+
 ----------------------------------------------------------------------
+== Test Android Calculator Application with Robotium ==
 
-
-== Test Android Sample Application with Robotium ==
-
-View/Download tutorial to [http://robotium.googlecode.com/files/TestAndroidCalculatorApp.pdf Test Sample Android Application with Robotium] and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Sample Test Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/TestCalculatorApp.pdf Test Android Calculator Application with Robotium] and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
 ----------------------------------------------------------------------
+== Test Android Calculator APK With Robotium ==
 
-
+View/Download tutorial to [http://robotium.googlecode.com/files/TestSampleAPK.pdf Test Android Calculator With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip TestProject Source Code]
+----------------------------------------------------------------------
 == Common Robotium Issues ==
 
 View/Download tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
 ----------------------------------------------------------------------
-
 ==Video Tutorial==
 
 [http://www.youtube.com/watch?v=T_8euppCz3k Click here for an external video tutorial]
