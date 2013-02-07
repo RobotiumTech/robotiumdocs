@@ -11,7 +11,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Andro
 ----------------------------------------------------------------------
 == Design Simple Android Calculator Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Sample Android Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Sample Project Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Simple Android Calculator Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Simple Calculator Source Code]
 
 ----------------------------------------------------------------------
 == Test Android Calculator Application with Robotium ==
@@ -20,7 +20,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/TestCalculatorAp
 ----------------------------------------------------------------------
 == Test Android Calculator APK With Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/TestSampleAPK.pdf Test Android Calculator With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip TestProject Source Code]
+View/Download tutorial to [http://robotium.googlecode.com/files/TestSampleAPK.pdf Test Android Calculator APK With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip Test Calculator APK Source Code]
 ----------------------------------------------------------------------
 == Common Robotium Issues ==
 
