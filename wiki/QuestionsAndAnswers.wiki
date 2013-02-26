@@ -43,7 +43,7 @@ Yes you can if you have a rooted phone. More information is [http://code.google.
 
 === Can I use Robotium with hybrid (web) applications? ===
 
-Yes you can. Since Robotium 4.0, WebViews are supported.  
+Yes you can. Since Robotium 4.0, applications with web content are supported.  
 
 === Can I take screenshots from inside of Robotium? ===
 
