@@ -41,9 +41,9 @@ Yes you can. You do not need to have the source code. More information is [http:
 Yes you can if you have a rooted phone. More information is [http://code.google.com/p/robotium/wiki/RobotiumForPreInstalledApps found here.]
  
 
-=== Can I use Robotium on flash and web applications? ===
+=== Can I use Robotium with hybrid (web) applications? ===
 
-No. Robotium will not be able to handle the flash or web components, it only works with android components. You could send in clicks by using {{{clickOnScreen()}}} or assert that a certain Activity is shown but that is all. You will not be able to write tests where you verify or work with the web or flash components. 
+Yes you can. Since Robotium 4.0, WebViews are supported.  
 
 === Can I take screenshots from inside of Robotium? ===
 
