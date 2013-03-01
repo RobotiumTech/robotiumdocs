@@ -3,6 +3,44 @@
 
 == Robotium Changelog ==
 
+== Robotium 4.0 ==
+You can now use Robotium to interact with your hybrid apps. Web support  has been built in, searchText(), waitForText(), clickOnText(),  scroll() methods, takeScreenShot() etc, now support WebViews. 
+
+*New Functionality:*
+
+   * waitForCondition(Condition condition, final int timeout) 
+   * waitForWebElement(By by) //Example: waitForWebElement(By.id("id")); 
+   * waitForWebElement(By by, int timeout, boolean scroll) 
+   * waitForWebElement(By by, int match, int timeout, boolean scroll) 
+   * clickOnWebElement(WebElement webElement) 
+   * clickOnWebElement(By by) 
+   * clickOnWebElement(By by, int match) 
+   * clickOnWebElement(By by, int match, boolean scroll) 
+   * enterTextInWebElement(By by, String text) 
+   * typeTextInWebElement(By by, String text) 
+   * typeTextInWebElement(By by, String text, int match) 
+   * typeTextInWebElement(WebElement webElement, String text) 
+   * clearTextInWebElement(By by) 
+   * getWebElement(By by, int index) 
+   * getCurrentViews(Class classToFilterBy) 
+   * getCurrentViews(Class classToFilterBy, View parent) 
+   * takeScreenshot(String name, int quality) 
+
+*New class RobotiumUtils:* 
+
+   * removeInvisibleViews(Iterable viewList) 
+   * filterViews(Class classToFilterBy, Iterable<?> viewList) 
+   * filterViewsToSet(Class classSet[], Iterable viewList) 
+   * sortViewsByLocationOnScreen(List  views) 
+   * sortViewsByLocationOnScreen(List views, boolean 
+yAxisFirst) 
+   * getNumberOfMatches(String regex, View view, Set uniqueTextViews) 
+
+*Methods removed:* 
+   * getAllOpenedActivities() 
+   * finishInactiveActivities() 
+   * getCurrentXViews //replaced by getCurrentViews(Class classToFilterBy). Example: getCurrentViews(ListView.class) 
+
 == Robotium 3.6 ==
 Full support for Android 4.2 (API Level 17). A part from several bug fixes, more optimisations and improvements have been done which results in the fastest and best Robotium to date.
 
