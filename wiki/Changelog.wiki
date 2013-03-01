@@ -32,8 +32,7 @@ Robotium now supports hybrid apps. Web support has been built in, searchText(), 
    * filterViews(Class classToFilterBy, Iterable<?> viewList) 
    * filterViewsToSet(Class classSet[], Iterable viewList) 
    * sortViewsByLocationOnScreen(List  views) 
-   * sortViewsByLocationOnScreen(List views, boolean 
-yAxisFirst) 
+   * sortViewsByLocationOnScreen(List views, boolean yAxisFirst) 
    * getNumberOfMatches(String regex, View view, Set uniqueTextViews) 
 
 *Methods removed:* 
