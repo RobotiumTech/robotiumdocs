@@ -4,7 +4,7 @@
 == Robotium Changelog ==
 
 == Robotium 4.0 ==
-You can now use Robotium to interact with your hybrid apps. Web support  has been built in, searchText(), waitForText(), clickOnText(),  scroll() methods, takeScreenShot() etc, now support WebViews. 
+Robotium now supports hybrid apps. Web support has been built in, searchText(), waitForText(), clickOnText(),  scroll() methods, takeScreenShot() etc, now support WebViews. 
 
 *New Functionality:*
 
