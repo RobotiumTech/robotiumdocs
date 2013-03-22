@@ -3,14 +3,14 @@
 == Use Robotium with Maven ==
 
 This is what you need:
-  * Set up your project(s) as usual for Maven, see [http://code.google.com/p/maven-android-plugin/ maven-android-plugin].
+  * Set up your project(s) as usual for Maven, see [http://code.google.com/p/maven-android-plugin/ android-maven-plugin].
   * Add a dependency to Robotium in your *test* project:
     {{{
     <dependencies>
         <dependency>
             <groupId>com.jayway.android.robotium</groupId>
             <artifactId>robotium-solo</artifactId>
-            <version>3.6</version>
+            <version>4.0</version>
         </dependency>
 
         ...
@@ -36,5 +36,5 @@ If you have been instructed to help test a specific SNAPSHOT version of Robotium
 Then set the version number for robotium-solo to the desired version number, for example:
 
     {{{
-        <version>3.6.1-SNAPSHOT</version>
+        <version>4.1-SNAPSHOT</version>
     }}}
