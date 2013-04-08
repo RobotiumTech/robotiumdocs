@@ -16,7 +16,7 @@ View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSam
 ----------------------------------------------------------------------
 == Test Android Calculator Application with Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/TestCalculatorApp.pdf Test Android Calculator Application with Robotium] and [http://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
+View/Download tutorial to [https://robotium.googlecode.com/files/AndroidCalculatorTest.pdf Test Android Calculator Application with Robotium] and https://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
 ----------------------------------------------------------------------
 == Test Android Calculator APK With Robotium ==
 
