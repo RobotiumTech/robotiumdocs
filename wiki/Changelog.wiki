@@ -3,6 +3,18 @@
 
 == Robotium Changelog ==
 
+== Robotium 4.1 ==
+A lot of work has gone into fixing issues and improving the overall experience making this the best version of Robotium yet!. 
+
+*New Functionality:*
+
+   * waitForActivity(Class<? extends Activity> activityClass)
+   * waitForActivity(Class<? extends Activity> activityClass, int timeout)
+   * getWebUrl()
+   * hideSoftKeyboard()
+   * getView(int id, int index)
+   * takeScreenshot() also works with GLSurfaceViews
+
 == Robotium 4.0 ==
 Robotium now supports hybrid apps. Web support has been built in, searchText(), waitForText(), clickOnText(),  scroll() methods, takeScreenShot() etc, now support WebViews. 
 
