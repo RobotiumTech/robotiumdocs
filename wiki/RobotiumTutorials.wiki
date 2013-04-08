@@ -20,7 +20,7 @@ View/Download tutorial to [https://robotium.googlecode.com/files/AndroidCalculat
 ----------------------------------------------------------------------
 == Test Android Calculator APK With Robotium ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/TestSampleAPK.pdf Test Android Calculator APK With Robotium] and [http://robotium.googlecode.com/files/TestProject.zip Test Calculator APK Source Code]
+View/Download tutorial to [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.pdf Test Android Calculator APK With Robotium] and [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.zip Test Calculator APK Source Code]
 ----------------------------------------------------------------------
 == Common Robotium Issues ==
 
