@@ -1,3 +1,3 @@
 #summary Robotium API Documentation
 
-[http://robotium.googlecode.com/svn/doc/index.html Robotium API documentation]
+[http://robotium.googlecode.com/svn/doc/index.html Robotium API Documentation]
