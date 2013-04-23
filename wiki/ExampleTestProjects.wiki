@@ -1,13 +1,11 @@
 #summary Download Robotium Example Test Projects
 
-= Introduction =
+== Test Native Application ==
 
-Add your content here.
+View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
+----------------------------------------------------------------------
+== Test Hybrid (Web) Application ==
 
+View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Simple Android Calculator Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Simple Calculator Source Code]
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+----------------------------------------------------------------------
