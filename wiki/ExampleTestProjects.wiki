@@ -1,11 +1,7 @@
 #summary Download Robotium Example Test Projects
 
-== Test Native Application ==
+== Example Test Projects ==
 
 [http://robotium.googlecode.com/files/ExampleTestProject_v4.1.zip Native Example Test Project]
-----------------------------------------------------------------------
-== Test Hybrid (Web) Application ==
 
 [http://robotium.googlecode.com/files/HybridTestProject.zip Hybrid Example Test Project]
-
-----------------------------------------------------------------------
