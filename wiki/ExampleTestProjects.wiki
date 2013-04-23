@@ -1,6 +1,6 @@
 #summary Download Robotium Example Test Projects
 
-== Example Test Projects ==
+=== Example Test Projects ===
 
 [http://robotium.googlecode.com/files/ExampleTestProject_v4.1.zip Native Test Project]
 
