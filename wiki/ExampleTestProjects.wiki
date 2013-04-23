@@ -2,10 +2,10 @@
 
 == Test Native Application ==
 
-[http://robotium.googlecode.com/files/ExampleTestProject_v4.1.zip Native ExampleTestProject]
+[http://robotium.googlecode.com/files/ExampleTestProject_v4.1.zip Native Example Test Project]
 ----------------------------------------------------------------------
 == Test Hybrid (Web) Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Simple Android Calculator Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Simple Calculator Source Code]
+[http://robotium.googlecode.com/files/WebTestProject.zip Hybrid Example Test Project]
 
 ----------------------------------------------------------------------
