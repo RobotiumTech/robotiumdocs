@@ -6,6 +6,6 @@
 ----------------------------------------------------------------------
 == Test Hybrid (Web) Application ==
 
-[http://robotium.googlecode.com/files/WebTestProject.zip Hybrid Example Test Project]
+[http://robotium.googlecode.com/files/HybridTestProject.zip Hybrid Example Test Project]
 
 ----------------------------------------------------------------------
