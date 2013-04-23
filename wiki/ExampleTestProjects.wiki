@@ -2,7 +2,7 @@
 
 == Test Native Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
+[http://robotium.googlecode.com/files/ExampleTestProject_v4.1.zip Native ExampleTestProject]
 ----------------------------------------------------------------------
 == Test Hybrid (Web) Application ==
 
