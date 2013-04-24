@@ -36,7 +36,7 @@ And anybody can submit code through github!
 
 2. Do your changes in your clone of the project,
 
-3. then click "pull request" on your repository to tell "hugojosefson" and "renas" there are changes to bring in.
+3. then click "pull request" on your repository to tell us there are changes to bring in.
 
 ===Sending patches===
 You may of course also send patches directly through the [http://code.google.com/p/robotium/issues/list Issue tracker] or mailing list [http://groups.google.com/group/robotium-developers Robotium Developers].
