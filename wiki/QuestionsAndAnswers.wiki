@@ -4,7 +4,7 @@
 
 === How do I get started with Robotium? ===
 
-Download the [http://robotium.googlecode.com/files/robotium-solo-4.1.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you can download a tutorial as well as a test project that can be run through Eclipse.
+Download the [http://robotium.googlecode.com/files/robotium-solo-4.1.jar Robotium jar] and add it to your test project's build path. For further instructions go to our [http://code.google.com/p/robotium/wiki/Getting_Started getting started page.] There you will find a link to the tutorials page and test project that can be downloaded and run through Eclipse.
 
 
 === Which versions of Android does Robotium support? ===
