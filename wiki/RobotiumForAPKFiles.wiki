@@ -63,7 +63,7 @@ public class ReallyBlackboxTest extends ActivityInstrumentationTestCase2 {
 	}
 
 
- @Override
+   @Override
    public void tearDown() throws Exception {
                 solo.finishOpenedActivities();
 
