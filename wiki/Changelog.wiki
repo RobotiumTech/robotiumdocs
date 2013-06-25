@@ -3,6 +3,34 @@
 
 == Robotium Changelog ==
 
+== Robotium 4.2 ==
+This version comes with some really cool new features like pinchToZoom and startScreenshotSequence. Besides new functionality a lot of effort has gone into updating existing methods to make them more stable. Also the web functionality has been re-written in order to have full support for frameworks like PhoneGap.
+
+*New Functionality:*
+
+   * getView(String id)
+   * getView(String id, int index)
+   * pinchToZoom(PointF startPoint1, PointF startPoint2, PointF endPoint1, PointF endPoint2)
+   * rotateLarge(PointF center1, PointF center2)
+   * rotateSmall(PointF center1, PointF center2)  
+   * swipe(PointF startPoint1, PointF startPoint2, PointF endPoint1, PointF endPoint2)   
+   * clickOnScreen(float x, float y, int numberOfClicks)
+   * clearLog()
+   * waitForView(int id)   
+   * waitForView(int id, int minimumNumberOfMatches, int timeout)  
+   * waitForView(int id, int minimumNumberOfMatches, int timeout, boolean scroll)
+   * startScreenshotSequence(String name)   
+   * startScreenshotSequence(String name, int quality, int frameDelay, int maxFrames)
+   * stopScreenshotSequence()
+
+
+*New class Timeout:* 
+
+   * getLargeTimeout()
+   * setLargeTimeout(int milliseconds)
+   * getSmallTimeout()
+   * setSmallTimeout(int milliseconds)   
+
 == Robotium 4.1 ==
 A lot of work has gone into fixing issues and improving the overall experience making this the best version of Robotium yet!. 
 
