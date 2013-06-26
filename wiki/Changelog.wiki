@@ -4,7 +4,7 @@
 == Robotium Changelog ==
 
 == Robotium 4.2 ==
-This version comes with some really cool new features like pinchToZoom and startScreenshotSequence. Besides new functionality a lot of effort has gone into updating existing methods to make them more stable. Also the web functionality has been re-written in order to have full support for frameworks like PhoneGap.
+This version comes with some really cool new features like pinchToZoom and startScreenshotSequence. Besides new functionality a lot of effort has gone into updating existing methods to make them more stable. Also the web functionality has been re-written in order to have full support for existing web frameworks.
 
 *New Functionality:*
 
