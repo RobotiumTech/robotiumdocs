@@ -7,24 +7,24 @@ Below you find step by step tutorials, from setting up Android working environme
 
 == Set Up Android Working Environment ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
+Download the tutorial [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
 == Design Simple Android Calculator Application ==
 
-View/Download tutorial to [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Design Simple Android Calculator Application] and [http://robotium.googlecode.com/files/AndroidCalculator.zip Simple Calculator Source Code]
+Download the tutorial [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Develop Simple Android Calculator] and download the [http://robotium.googlecode.com/files/AndroidCalculator.zip Calculator Source Code]
 
 ----------------------------------------------------------------------
 == Test Android Calculator Application with Robotium ==
 
-View/Download tutorial to [https://robotium.googlecode.com/files/AndroidCalculatorTest.pdf Test Android Calculator Application with Robotium] and [https://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
+Download the tutorial [https://robotium.googlecode.com/files/AndroidCalculatorTest.pdf Test Android Calculator Application with Robotium] and download the [https://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
 ----------------------------------------------------------------------
 == Test Android Calculator APK With Robotium ==
 
-View/Download tutorial to [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.pdf Test Android Calculator APK With Robotium] and [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.zip Test Calculator APK Source Code]
+Download the tutorial [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.pdf Test Android Calculator APK With Robotium] and download the  [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.zip Test Calculator APK Source Code]
 ----------------------------------------------------------------------
 == Common Robotium Issues ==
 
-View/Download tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
+Download the tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues.pdf Common Robotium Issues]
 ----------------------------------------------------------------------
 ==Video Tutorial==
 
