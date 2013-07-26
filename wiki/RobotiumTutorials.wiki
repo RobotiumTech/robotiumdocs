@@ -14,7 +14,7 @@ Download the tutorial [http://robotium.googlecode.com/files/Set%20up%20Android%2
 Download the tutorial [https://robotium.googlecode.com/files/DesignAndroidSampleApplication.pdf Develop Simple Android Calculator] and download the [https://github.com/nedo/AndroidCalculator Calculator Source Code]
 
 ----------------------------------------------------------------------
-== Test Android Calculator WhiteBox ==
+== Test Android Calculator WhiteBox Testing ==
 
 Download the tutorial [https://robotium.googlecode.com/files/AndroidCalculatorTest.pdf Test Android Calculator Application with Robotium] and download the [https://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
 ----------------------------------------------------------------------
