@@ -11,7 +11,7 @@ Download the tutorial [http://robotium.googlecode.com/files/Set%20up%20Android%2
 ----------------------------------------------------------------------
 == Design Simple Android Calculator Application ==
 
-Download the tutorial [http://robotium.googlecode.com/files/CreateAndroidSampleApplication.pdf Develop Simple Android Calculator] and download the [http://robotium.googlecode.com/files/AndroidCalculator.zip Calculator Source Code]
+Download the tutorial [https://robotium.googlecode.com/files/DesignAndroidSampleApplication.pdf Develop Simple Android Calculator] and download the [http://robotium.googlecode.com/files/AndroidCalculator.zip Calculator Source Code]
 
 ----------------------------------------------------------------------
 == Test Android Calculator Application with Robotium ==
