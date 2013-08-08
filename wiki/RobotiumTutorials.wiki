@@ -16,7 +16,7 @@ Download the tutorial [https://robotium.googlecode.com/files/CreateAndroidSample
 ----------------------------------------------------------------------
 == Test Android Calculator White Box Testing ==
 
-Download the tutorial [https://robotium.googlecode.com/files/AndroidCalculatorTest.pdf Test Android Calculator Application with Robotium] and download the [https://robotium.googlecode.com/files/AndroidCalculatorTest.zip Test Calculator Source Code]
+Download the tutorial [https://robotium.googlecode.com/files/TestAndroidCalculator-WhiteBoxTesting-V1_0.pdf Test Android Calculator White Box Testing] and download the [https://robotium.googlecode.com/files/TestAndroidCalculatorWhiteBox-V1_0.zip Source Code]
 ----------------------------------------------------------------------
 == Test Android Calculator APK Black Box Testing ==
 
