@@ -20,7 +20,7 @@ Download the tutorial [https://robotium.googlecode.com/files/TestAndroidCalculat
 ----------------------------------------------------------------------
 == Test Android Calculator APK Black Box Testing ==
 
-Download the tutorial [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.pdf Test Android Calculator APK With Robotium] and download the  [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.zip Test Calculator APK Source Code]
+Download the tutorial [https://robotium.googlecode.com/files/TestAndroidCalculatorAPK-BlackBoxTesting-V1_0.pdf Test Android Calculator APK With Robotium] and download the  [https://robotium.googlecode.com/files/testAndroidCalculatorBlackBox-V1_0.zip Source Code]
 ----------------------------------------------------------------------
 == Common Robotium Issues ==
 
