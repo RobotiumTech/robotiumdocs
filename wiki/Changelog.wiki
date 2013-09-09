@@ -3,6 +3,35 @@
 
 == Robotium Changelog ==
 
+== Robotium 4.3 ==
+
+The main goal of this release has been to go over the existing code and improve it. Besides bug fixes and improvements, new functionality has also been introduced. 
+
+
+*New Functionality:*
+
+   * waitForDialogToOpen()
+   * waitForDialogToClose()
+   * getString(String id)
+   * scrollToSide(int side, float scrollPosition)
+   * scrollViewToSide(View view, int side, float scrollPosition)
+   * WebElement.setAttributes(Hashtable<String,String> attributes)
+   * WebElement.getAttribute(String attributeName)
+
+
+*Improvements to:* 
+
+   * getView(String id) Also works with android.R.id's 
+   * hideSoftKeyboard() Always closes the soft keyboard
+   * clickOnMenuItem() Improved waiting
+   * enterText(), clearEditText() Faster then before
+   * drag() closes the soft keyboard 
+   * takeScreenshot() better GL support
+   * searchText/waitForText support for line breaks
+   * By.id returns dynamic id's
+   * getCurrentWebElements() better css and xpath support
+
+
 == Robotium 4.2 ==
 This version comes with some really cool new features like pinchToZoom and startScreenshotSequence. Besides new functionality a lot of effort has gone into updating existing methods to make them more stable. Also the web functionality has been re-written in order to have full support for existing web frameworks.
 
