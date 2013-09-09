@@ -79,7 +79,7 @@ If that does not solve the problem then try to add this tag to the !AndroidManif
 If neither of these solutions solve your problems then write an [http://code.google.com/p/robotium/issues/list issue report.] 
 
 === Can I test with localised strings? === 
-Yes you can. You can use `solo.getString()` and in there pass in the resource id of the string that you want to use. You will need to have the source code of the application under test to access the strings. 
+Yes you can. You can use `solo.getString(int id)` and in there pass in the resource id of the string that you want to use. Since Robotium 4.3, getString(String id) can be used when testing apps with no source code. 
 
 === How can I get code coverage for my Robotium tests? ===
 You currently need to use ant (or for the perverse, the command line).
