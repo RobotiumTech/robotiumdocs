@@ -5,7 +5,7 @@
 
 == Robotium 4.3 ==
 
-The main goal of this release has been to go over the existing code and improve it. Besides bug fixes and improvements, new functionality has also been introduced. 
+The main goal of this release has been to go over the existing code and improve it. Besides bug fixes and improvements, new features have also been introduced. 
 
 
 *New Functionality:*
