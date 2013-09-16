@@ -2,7 +2,7 @@
 
 With Robotium it is possible to run test cases on applications where you only have the apk file.
 
-For step by step instructions with images download this [https://robotium.googlecode.com/files/AndroidCalculatorAPKTest.pdf tutorial.] 
+For step by step instructions with images download this [https://robotium.googlecode.com/files/TestAndroidCalculatorAPK-BlackBoxTesting-V1_0.pdf tutorial.] 
 
 == Introduction ==
 
