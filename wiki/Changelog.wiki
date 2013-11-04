@@ -3,6 +3,28 @@
 
 == Robotium Changelog ==
 
+== Robotium 4.3.1 ==
+
+Purely a maintenance release where bugs have been fixed and support for Android API level 19 is added
+
+*API level 19*
+
+   * Full support for Android API level 19
+
+*Issues fixed:* 
+
+   * Issue-549 In RobotiumUtils.java , Matcher.find() maybe invoked
+   * issue-543 Button with "\n" in text can't be found
+   * Issue-538 NullPointerException in ScreenshotTaker.getBitmapOfView
+   * Issue-527 Solo.pinchToZoom does not work properly
+
+*Improvements to:* 
+
+   * getView(String id, int index) Works better with Android id's
+   * waitForDialogToOpen() Fixed timing issue  
+   * clickOnActionbarHomeButton() Fixed thread access warning
+   * waitForView(View view) Improved recognition of Views
+
 == Robotium 4.3 ==
 
 The main goal of this release has been to go over the existing code and improve it. Besides bug fixes and improvements, new features have also been introduced. 
