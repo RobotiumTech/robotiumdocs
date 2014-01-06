@@ -5,7 +5,9 @@
 
 == Robotium 5.0.1 ==
 
-A new Config class is Included in this release, where Robotium Developers can change various things like default timeouts, screenshot location, screenshot type, scrolling, and web element click behaviour. Also several improvements to the internal classes. 
+A new SoloConfig class is Included in this release, where Robotium Developers can change various things like default timeouts, screenshot location, screenshot type, scrolling, and web element click behaviour. Also several improvements to the internal classes. 
+
+Note: package name has been changed to: com.robotium.solo. 
 
 
 *New Functionality:*
