@@ -3,6 +3,33 @@
 
 == Robotium Changelog ==
 
+== Robotium 5.0.1 ==
+
+Included in this release is a new Config class, where Robotium Developers can change various things like default timeouts, screenshot location, screenshot type, scrolling, and web element click behaviour. Also several improvements to the internal classes. 
+
+
+*New Functionality:*
+
+   * pressSoftKeyboardNextButton()
+   * waitForEmptyActivityStack()
+
+New class Solo.Config:
+
+   * int timeout_large - The timeout length of the waitFor methods.
+   * int timeout_small - The timeout length of the get, is, set, assert, enter and click methods.
+   * String screenshotSavePath - The screenshot save path. 
+   * ScreenshotFileType screenshotFileType - The screenshot file type, JPEG or PNG.
+   * boolean shouldScroll - Set to true if the get, is, set, enter, type and click methods should scroll.
+   * boolean useJavaScriptToClickWebElements  - Set to true if JavaScript should be used to click WebElements.
+
+
+*Improvements to:* 
+
+   * All the click methods. Improved behaviour in unfavourable situations.
+   * The waitForDialogToOpen & waitForDialogToClose methods. 
+   * The internal View handling. 
+   * TakeScreenshot() now supports GLSurfaceViews with OpenGL ES 3.0.
+
 == Robotium 4.3.1 ==
 
 Purely a maintenance release where bugs have been fixed and support for Android API level 19 is added
