@@ -7,7 +7,7 @@ Below you find step by step tutorials, from setting up Android working environme
 
 == Set Up Android Working Environment ==
 
-Download the tutorial [http://robotium.googlecode.com/files/Set%20up%20Android%20Environment.pdf Setup Working Environment for Android]
+Download the tutorial [http://robotium.googlecode.com/files/SetupAndroidEnvironment.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
 == Design Simple Android Calculator Application ==
 
