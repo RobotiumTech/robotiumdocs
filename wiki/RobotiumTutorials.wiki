@@ -7,7 +7,7 @@ Below you find step by step tutorials, from setting up Android working environme
 
 == Set Up Android Working Environment ==
 
-Download the tutorial [http://robotium.googlecode.com/files/SetupAndroidEnvironment.pdf Setup Working Environment for Android]
+Download the tutorial [http://robotium.googlecode.com/files/SetupAndroidEnvironment-V2_0.pdf Setup Working Environment for Android]
 ----------------------------------------------------------------------
 == Design Simple Android Calculator Application ==
 
@@ -16,7 +16,7 @@ Download the tutorial [https://robotium.googlecode.com/files/CreateAndroidSample
 ----------------------------------------------------------------------
 == Test Android Calculator White Box Testing ==
 
-Download the tutorial [https://robotium.googlecode.com/files/TestAndroidCalculator-WhiteBoxTesting-V1_0.pdf Test Android Calculator White Box Testing] and download the [https://robotium.googlecode.com/files/TestAndroidCalculatorWhiteBox-V1_0.zip Source Code]
+Download the tutorial [http://robotium.googlecode.com/files/TestAndroidCalculator-WhiteBoxTesting-V2_0.pdf Test Android Calculator White Box Testing] and download the [http://robotium.googlecode.com/files/TestAndroidCalculatorWhiteBox-V2_0.zip Source Code]
 ----------------------------------------------------------------------
 == Test Android Calculator APK Black Box Testing ==
 
