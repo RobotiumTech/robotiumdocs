@@ -10,7 +10,7 @@ This is what you need:
         <dependency>
             <groupId>com.jayway.android.robotium</groupId>
             <artifactId>robotium-solo</artifactId>
-            <version>4.0</version>
+            <version>5.0.1</version>
         </dependency>
 
         ...
@@ -36,5 +36,5 @@ If you have been instructed to help test a specific SNAPSHOT version of Robotium
 Then set the version number for robotium-solo to the desired version number, for example:
 
     {{{
-        <version>4.1-SNAPSHOT</version>
+        <version>5.0.2-SNAPSHOT</version>
     }}}
