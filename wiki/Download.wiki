@@ -3,7 +3,7 @@
 = Downloads =
 
 ||File ||Description ||
-||[robotium-solo-5.0.1.jar] https://robotium.googlecode.com/files/robotium-solo-5.0.1.jar ||Description ||
+||[robotium-solo-5.0.1.jar https://robotium.googlecode.com/files/robotium-solo-5.0.1.jar ||Description ||
 ||File ||Description ||
 ||File ||Description ||
 ||File ||Description ||
