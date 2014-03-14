@@ -11,4 +11,4 @@
 
 
 = Legacy versions =
-If you're looking for legacy versions of have a look in the [https://code.google.com/p/robotium/downloads/list old download] page.
+If you're looking for legacy versions of Robotium have a look in the [https://code.google.com/p/robotium/downloads/list old downloads] page.
