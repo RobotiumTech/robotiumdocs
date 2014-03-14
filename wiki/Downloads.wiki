@@ -1,0 +1,12 @@
+= Downloads =
+
+||File ||Description ||
+||[https://robotium.googlecode.com/files/robotium-solo-5.0.1.jar robotium-solo-5.0.1.jar] ||robotium-solo-5.0.1 ||
+||[https://robotium.googlecode.com/files/robotium-solo-4.3.1.jar robotium-solo-4.3.1.jar] ||robotium-solo-4.3.1 ||
+||[https://robotium.googlecode.com/files/robotium-solo-4.3.jar robotium-solo-4.3.jar] ||robotium-solo-4.3 ||
+||[https://robotium.googlecode.com/files/robotium-solo-4.2.jar robotium-solo-4.2.jar] || robotium-solo-4.2  ||
+||[https://robotium.googlecode.com/files/robotium-solo-4.1.jar robotium-solo-4.1.jar] || robotium-solo-4.1 ||
+
+
+= Legacy versions =
+If you're looking for legacy versions of have a look in the [https://code.google.com/p/robotium/downloads/list old download] page.
