@@ -1,7 +1,7 @@
 #summary Download Robotium
 
 = Downloads =
-Google no longer accepts uploading of new binaries to the Google Code page so the files are now hosted at [https://bintray.com/robotium/generic/robotium/view Bintray].
+Google no longer accepts uploading of new binaries to the Google Code page so the files are now hosted at [https://bintray.com/robotium/generic/releases/view Bintray].
 
 == Current Direct Downloads ==
 
