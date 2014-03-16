@@ -3,6 +3,21 @@
 
 == Robotium Changelog ==
 
+== Robotium 5.1 ==
+
+Our work on improving Robotium has continued and we now have the fastest, most accurate and stable version of Robotium yet.
+
+Note: package name is now: com.robotium.solo. 
+
+*New Functionality:*
+
+   * Solo(Instrumentation instrumentation, Config config, Activity activity) - New constructor.
+   * pressSoftKeyboardSearchButton() - Presses the search button on the soft keyboard.
+   * getWebElements() - Returns all the WebElements displayed in the active WebView.
+   * getWebElements(By by) - Returns all the WebElements displayed in the active WebView matching the specified By object.
+   * setNavigationDrawer(int status) - Sets the status of the NavigationDrawer.
+   * getConfig() - Returns the Config used by Robotium.
+
 == Robotium 5.0.1 ==
 
 A new SoloConfig class is Included in this release, where Robotium Developers can change various things like default timeouts, screenshot location, screenshot type, scrolling, and web element click behaviour. Also several improvements to the internal classes. 
