@@ -13,4 +13,4 @@ Google no longer accepts uploading of new binaries to the Google Code page so th
 
 
 == Legacy versions ==
-If you're looking for legacy versions of Robotium have a look in the [https://code.google.com/p/robotium/downloads/list old downloads] page.
+If you're looking for legacy versions of Robotium have a look in the old [https://code.google.com/p/robotium/downloads/list downloads page] .
