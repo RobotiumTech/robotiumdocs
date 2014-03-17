@@ -9,7 +9,7 @@ Download the [http://dl.bintray.com/robotium/generic/robotium-solo-5.1.jar Robot
 
 === Which versions of Android does Robotium support? ===
  
-Robotium officially supports Android 1.6 and up.
+Robotium officially supports Android API level 8 and up.
 
 === Does Robotium support testing on real devices? ===
 
