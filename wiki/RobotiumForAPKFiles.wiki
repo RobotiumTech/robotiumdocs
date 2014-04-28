@@ -6,7 +6,7 @@ For step by step instructions with images download this [https://robotium.google
 
 == Introduction ==
 
-The .apk file has to have the same signature as your test project. If you do not have the signature key of the .apk file then you need to remove the signature and resign it with you own key, android debug key can be used. A drag and drop java tool can be downloaded [http://www.troido.de/re-sign.jar from here] which strips the apk file from its signature and then signs it with your android debug key. _If the new apk is not saved then try to run the re-sign tool as an administrator. In windows that would be done by right clicking the re-sign.jar and select run as administrator. In OS X it can be done by opening up the terminal and then "sudo java -jar re-sign.jar"._ 
+The .apk file has to have the same signature as your test project. If you do not have the signature key of the .apk file then you need to remove the signature and resign it with you own key, android debug key can be used. A drag and drop java tool can be downloaded [http://recorder.robotium.com/downloads/re-sign.jar from here] which strips the apk file from its signature and then signs it with your android debug key. _If the new apk is not saved then try to run the re-sign tool as an administrator. In windows that would be done by right clicking the re-sign.jar and select run as administrator. In OS X it can be done by opening up the terminal and then "sudo java -jar re-sign.jar"._ 
 
 The android debug key is used by Eclipse when signing applications and test projects before installing them on the emulator/device. Many times it is easier to just use that key when resigning the apk. 
 
