@@ -7,8 +7,6 @@
 
 We’ve focused on improving the various scroll methods, both by speeding them up and also by improving the logic. We’ve introduced new features like unlockScreen() and fixed bugs in various areas.
 
-Note: package name is now: com.robotium.solo. 
-
 *New Functionality:*
 
    * unlockScreen() - Unlocks the screen lock.
