@@ -6,6 +6,9 @@ Google no longer accepts uploading of new binaries to the Google Code page. The 
 == Current Direct Downloads ==
 
 ||File ||Description ||
+||[http://dl.bintray.com/robotium/generic/robotium-solo-5.2.1.jar robotium-solo-5.2.1.jar] ||Robotium Solo 5.2.1 ||
+||[http://dl.bintray.com/robotium/generic/robotium-solo-5.2.1-javadoc.jar robotium-solo-5.2.1-javadoc.jar] ||Robotium Solo 5.2.1 Javadoc ||
+||[http://dl.bintray.com/robotium/generic/ExampleTestProject_v5.2.1.zip ExampleTestProject_v5.2.1.zip] ||Example Test Project 5.2.1 ||
 ||[http://dl.bintray.com/robotium/generic/robotium-solo-5.1.jar robotium-solo-5.1.jar] ||Robotium Solo 5.1 ||
 ||[http://dl.bintray.com/robotium/generic/robotium-solo-5.1-javadoc.jar robotium-solo-5.1-javadoc.jar] ||Robotium Solo 5.1 Javadoc ||
 ||[http://dl.bintray.com/robotium/generic/ExampleTestProject_v5.1.zip ExampleTestProject_v5.1.zip] ||Example Test Project 5.1 ||
