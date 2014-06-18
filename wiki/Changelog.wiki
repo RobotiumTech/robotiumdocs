@@ -12,7 +12,7 @@ Note: package name is now: com.robotium.solo.
 *New Functionality:*
 
    * unlockScreen() - Unlocks the screen lock.
-   * getCurrentViews(Class<T> classToFilterBy, boolean includeSubclasses) - New parameter includeSubclasses set to true if also subclasses should be returned.
+   * getCurrentViews(Class classToFilterBy, boolean includeSubclasses) - New parameter includeSubclasses set to true if also subclasses should be returned.
    * scrollToSide(Side side, float scrollPosition, int stepCount) - Parameter stepCount for users to decide the speed of the scroll. 
    * scrollViewToSide(View view, Side side, float scrollPosition, int stepCount) - Parameter stepCount for users to decide the speed of the scroll. 
 
