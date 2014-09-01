@@ -18,4 +18,4 @@ Robotium Remote Control makes it possible for Robotium test cases to be executed
 
 == Download ==
 
-[https://robotium.googlecode.com/files/RobotiumRCRelease2013.09.09.zip Robotium RC 2013.09.09]
+[http://recorder.robotium.com/downloads/RobotiumRCRelease5.2.1.zip Robotium RC 5.2.1]
