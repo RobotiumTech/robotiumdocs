@@ -3,6 +3,20 @@
 
 == Robotium Changelog ==
 
+== Robotium 5.3.0 ==
+
+We’ve focused on improving various methods of Robotium. For example the click logic and speed has been improved. We’ve introduced new features like setWiFiData() and fixed bugs in various areas.
+
+*New Functionality:*
+
+   * setWiFiData - Set if WiFi data should be turned on. 
+   * setMoibleData - Set if WiFi data should be turned on. 
+   * getView(Object tag) - Get a View with a specified tag. 
+   * getView(Object tag, int index) - Get a View with a specified tag and index. 
+   * waitForView(Object tag) - Wait for a View with a specified tag.
+   * waitForView(Object tag, int minimumNumberOfMatches, int timeout, boolean scroll) - Wait for a View with a specified tag. Set minimum number of matches and if scrolling should be performed. 
+   * The scroll methods now support RecyclerViews.  
+
 == Robotium 5.2.1 ==
 
 We’ve focused on improving the various scroll methods, both by speeding them up and also by improving the logic. We’ve introduced new features like unlockScreen() and fixed bugs in various areas.
