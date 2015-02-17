@@ -16,7 +16,7 @@ We’ve focused on improving various parts of Robotium. For example the click lo
    * waitForView(Object tag) - Wait for a View with a specified tag.
    * waitForView(Object tag, int minimumNumberOfMatches, int timeout, boolean scroll) - Wait for a View with a specified tag. Set minimum number of matches and if scrolling should be performed. 
    * The scroll methods now support RecyclerViews.  
-   * In Solo.Config trackActivities can be set to false to turn of Activity handling.  
+   * In Solo.Config trackActivities can be set to false to turn off Activity handling.  
 
 == Robotium 5.2.1 ==
 
