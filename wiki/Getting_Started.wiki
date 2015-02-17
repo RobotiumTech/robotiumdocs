@@ -9,9 +9,19 @@ To use Robotium, you need to add the [http://dl.bintray.com/robotium/generic/rob
 
 == Example test project ==
 
-In the Downloads section you will find [http://dl.bintray.com/robotium/generic/ExampleTestProject_v5.2.1.zip ExampleTestProject_v5.2.1.zip] which includes a sample application and an example test project.
+==Android Studio==
 
-In Eclipse, import !ExampleTestProject_v5.2.1.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_v5.2.1.zip.
+In the Downloads section you will find [http://dl.bintray.com/robotium/generic/ExampleTestProject_AndroidStudio_v5.3.zip ExampleTestProject_AndroidStudio_v5.3.zip] which includes a sample Android Studio project with 
+
+In the Android Studio welcome screen click “Open an existing Android Studio project”. Point to the unpacked ‘ExampleTestProject_AndroidStudio_v5.3’ folder. 
+
+In the Project window find ‘NotePadTest.java’ in app/src/androidTest/java/com.example.android.notepad/. Right click NotePadTest.java and select ‘Run NotePadTest’ to run the tests on either emulator or device.  
+
+==Eclipse==
+
+In the Downloads section you will find [http://dl.bintray.com/robotium/generic/ExampleTestProject_Eclipse_v5.3.zip ExampleTestProject_Eclipse_v5.3.zip] which includes a sample application and an example test project.
+
+In Eclipse, import !ExampleTestProject_Eclipse_v5.3.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> !ExampleTestProject_Eclipse_v5.3.zip.
 
 Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
  
