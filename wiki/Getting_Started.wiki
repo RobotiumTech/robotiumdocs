@@ -13,7 +13,7 @@ To use Robotium, you need to add the [http://dl.bintray.com/robotium/generic/rob
 
 In the Downloads section you will find [http://dl.bintray.com/robotium/generic/ExampleTestProject_AndroidStudio_v5.3.zip ExampleTestProject_AndroidStudio_v5.3.zip] which includes a sample Android Studio project with Robotium tests. 
 
-In the Android Studio welcome screen click “Open an existing Android Studio project”. Point to the unpacked ‘ExampleTestProject_AndroidStudio_v5.3’ folder. 
+In the Android Studio welcome screen click “Open an existing Android Studio project”. Point to the unpacked ‘ExampleTestProject_AndroidStudio_v5.3’ folder. Android Studio will open the project. 
 
 In the Project window find ‘NotePadTest.java’ in app/src/androidTest/java/com.example.android.notepad/. Right click NotePadTest.java and select ‘Run NotePadTest’ to run the tests on either emulator or device.  
 
