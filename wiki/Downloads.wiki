@@ -9,7 +9,7 @@ Google no longer accepts uploading of new binaries to the Google Code page. The 
 ||[http://dl.bintray.com/robotium/generic/robotium-solo-5.3.0.jar robotium-solo-5.3.0.jar] ||Robotium Solo 5.3.0 ||
 ||[http://dl.bintray.com/robotium/generic/robotium-solo-5.3.0-javadoc.jar robotium-solo-5.3.0-javadoc.jar] ||Robotium Solo 5.3.0 Javadoc ||
 ||[http://dl.bintray.com/robotium/generic/ExampleTestProject_v5.2.1.zip ExampleTestProject_AndroidStudio_v5.3.zip] ||Example Test Project 5.3.0 for Android Studio ||
-||[http://dl.bintray.com/robotium/generic/ExampleTestProject_Eclipse_v5.3.zip ExampleTestProject_v5.3.0.zip] ||Example Test Project 5.3.0 ||
+||[http://dl.bintray.com/robotium/generic/ExampleTestProject_Eclipse_v5.3.zip ExampleTestProject_v5.3.0.zip] ||Example Test Project 5.3.0 for Eclipse||
 
 
 
