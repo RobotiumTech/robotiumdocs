@@ -3,7 +3,7 @@
 
 == Robotium Changelog ==
 
-== Robotium 5.3.0 ==
+== Robotium 5.3.1 ==
 
 We’ve focused on improving various parts of Robotium. For example the click logic and speed has been improved. We’ve introduced new features like setWiFiData() and fixed bugs in various areas.
 
