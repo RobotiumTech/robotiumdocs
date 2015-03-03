@@ -10,7 +10,7 @@ We’ve focused on improving various parts of Robotium. For example the click lo
 *New Functionality:*
 
    * setWiFiData - Set if WiFi data should be turned on or off. 
-   * setMoibleData - Set if mobile data should be turned on or off. 
+   * setMobileData - Set if mobile data should be turned on or off. 
    * getView(Object tag) - Get a View with a specified tag. 
    * getView(Object tag, int index) - Get a View with a specified tag and index. 
    * waitForView(Object tag) - Wait for a View with a specified tag.
