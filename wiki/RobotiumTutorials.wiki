@@ -31,3 +31,9 @@ Download the tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues
 [http://www.youtube.com/watch?v=T_8euppCz3k Click here for an external video tutorial]
 
 ----------------------------------------------------------------------
+==Android Studio==
+
+[http://anirudh24seven.github.io/devlog/2015/02/13/robotium-android-studio.html Click here for an external Android Studio tutorial]
+
+
+----------------------------------------------------------------------
