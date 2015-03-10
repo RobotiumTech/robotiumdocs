@@ -26,9 +26,9 @@ Download the tutorial [http://robotium.googlecode.com/files/TestAndroidCalculato
 
 Download the tutorial [http://robotium.googlecode.com/files/CommonRobotiumIssues-V2_0.pdf Common Robotium Issues]
 ----------------------------------------------------------------------
-==Video Tutorial==
+==Eclipse Video Tutorial==
 
-[http://www.youtube.com/watch?v=T_8euppCz3k Click here for an external video tutorial]
+[http://www.youtube.com/watch?v=T_8euppCz3k Click here for an external Eclipse video tutorial]
 
 ----------------------------------------------------------------------
 ==Android Studio==
