@@ -3,6 +3,32 @@
 
 == Robotium Changelog ==
 
+== Robotium 5.4.1 ==
+
+We’ve focused on comes with several cool new features like illustrate, clickInRecyclerView and commandLogging. We’ve also updated the Activity handling and the various click methods. 
+
+*New Functionality:*
+
+   * illustrate(Illustration illustration) - Draws an arbitrary path with an arbitrary amount of points on the screen 
+   * clickInRecyclerView(int itemIndex) - Clicks a specified item index in the first RecyclerView it finds
+   * clickInRecyclerView(int itemIndex, int recyclerViewIndex) - Clicks a specified item index in the RecyclerView matching the specified recyclerViewIndex
+   * clickLongInRecycleView(int itemIndex) - Long clicks a specified item index in the first RecyclerView it finds
+   * clickLongInRecycleView(int itemIndex, int recyclerViewIndex) - Long clicks a specified item index in the RecyclerView matching the specified recyclerViewIndex
+   * clickLongInRecycleView(int itemIndex, int recyclerViewIndex, int time) -  Long clicks the specified itemIndex in the RecyclerView matching the specified recyclerViewIndex for the specified amount of time. 
+
+New settings Solo.Config:
+
+   * public String webFrame - Set the web frame to be used by Robotium. Default value is "document"
+   * public boolean commandLogging - Set to true if command logging should be enabled. Default value is false
+   * public boolean commandLoggingTag - Set the commandLogging tag. Default value is "Robotium"
+
+Bugs/Enhancements fixed:
+
+   * Issue-309 - command logging
+   * Issue-647 - need method to switch to iframe context
+   * Issue-661 - xpath result contains only one node
+   * Issue-673 - stop ActivityMonitor when calling finishOpenedActivities
+
 == Robotium 5.3.1 ==
 
 We’ve focused on improving various parts of Robotium. For example the click logic and speed has been improved. We’ve introduced new features like setWiFiData() and fixed bugs in various areas.
