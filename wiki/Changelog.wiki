@@ -5,7 +5,7 @@
 
 == Robotium 5.4.1 ==
 
-We’ve focused on comes with several cool new features like illustrate, clickInRecyclerView and commandLogging. We’ve also updated the Activity handling and the various click methods. 
+This version of Robotium comes with several cool new features like illustrate, clickInRecyclerView and commandLogging. We’ve also updated the Activity handling and the various click methods. 
 
 *New Functionality:*
 
