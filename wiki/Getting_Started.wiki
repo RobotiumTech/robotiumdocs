@@ -5,7 +5,7 @@
 Follow the instructions below if you want to see how Robotium works and how an Android test project looks like. If you want to create a new test project then please go to the [http://code.google.com/p/robotium/wiki/RobotiumTutorials step-by-step tutorials page.]
 
 
-= Example test project =
+== Example test project ==
 
 ==Android Studio==
 
