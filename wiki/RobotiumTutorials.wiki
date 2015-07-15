@@ -3,9 +3,11 @@
 
 Below you find step by step tutorials, from setting up Android working environment to testing Android application with Robotium. 
 
-==Android Studio==
+=Android Studio=
 
 [http://anirudh24seven.github.io/devlog/2015/02/13/robotium-android-studio.html Click here for an external Android Studio tutorial]
+
+----------------------------------------------------------------------
 
 
 =Eclipse=
