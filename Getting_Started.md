@@ -1,0 +1,63 @@
+## Getting started ##
+Follow the instructions below if you want to see how Robotium works and how an Android test project looks like. If you want to create a new test project then please go to the [step-by-step tutorials page.](http://code.google.com/p/robotium/wiki/RobotiumTutorials)
+
+
+## Example test project ##
+
+## Android Studio ##
+
+In the Downloads section you will find [ExampleTestProject\_AndroidStudio\_v5.3.zip](http://dl.bintray.com/robotium/generic/ExampleTestProject_AndroidStudio_v5.3.zip) which includes a sample Android Studio project with Robotium tests.
+
+In the Android Studio welcome screen click “Open an existing Android Studio project”. Point to the unpacked ‘ExampleTestProject\_AndroidStudio\_v5.3’ folder. Android Studio will open the project.
+
+In the Project window find ‘NotePadTest.java’ in app/src/androidTest/java/com.example.android.notepad/. Right click NotePadTest.java and select ‘Run NotePadTest’ to run the tests on either emulator or device.
+
+## Eclipse ##
+
+In the Downloads section you will find [ExampleTestProject\_Eclipse\_v5.3.zip](http://dl.bintray.com/robotium/generic/ExampleTestProject_Eclipse_v5.3.zip) which includes a sample application and an example test project.
+
+In Eclipse, import ExampleTestProject\_Eclipse\_v5.3.zip by clicking on File --> Import --> Existing Project into workspace --> Select archive file --> ExampleTestProject\_Eclipse\_v5.3.zip.
+
+Then you can run these test cases either on the emulator or on device. You right click the test project and select Run As --> Run As Android JUnit Test.
+
+Example of a test case (test case spanning over multiple activities where EditorActivity is the first activity):
+
+```
+ 
+public class EditorTest extends
+		ActivityInstrumentationTestCase2<EditorActivity> {
+
+  private Solo solo;
+
+  public EditorTest() {
+		super(EditorActivity.class);
+  }
+
+  public void setUp() throws Exception {
+  	solo = new Solo(getInstrumentation(), getActivity());
+  }
+  
+  public void testPreferenceIsSaved() throws Exception {
+  
+  	        solo.sendKey(Solo.MENU);
+		solo.clickOnText("More");
+		solo.clickOnText("Preferences");
+		solo.clickOnText("Edit File Extensions");
+		Assert.assertTrue(solo.searchText("rtf"));
+		
+		solo.clickOnText("txt");
+		solo.clearEditText(2);
+		solo.enterText(2, "robotium");
+		solo.clickOnButton("Save");
+		solo.goBack();
+		solo.clickOnText("Edit File Extensions");
+		Assert.assertTrue(solo.searchText("application/robotium"));
+		
+  }
+
+   @Override
+   public void tearDown() throws Exception {
+	solo.finishOpenedActivities();
+  }
+}
+```
